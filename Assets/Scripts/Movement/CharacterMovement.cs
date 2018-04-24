@@ -12,6 +12,16 @@ public class CharacterMovement : MonoBehaviour
     public float gravity = 20.0f;
     private Vector2 moveDirection = Vector2.zero;
     private CharacterController player;
+    public bool startRunning = false;
+    public KeyCode startKey = KeyCode.Q;
+
+
+        #endregion
+
+        #region Animations
+
+    public Animator anim;
+    public bool hasJumped = false;
 
         #endregion
 
@@ -43,6 +53,7 @@ public class CharacterMovement : MonoBehaviour
         //maxSpeed = startSpeed * maxSpeedMultiplier;
         player = GetComponent<CharacterController>();
         currentSpeed = startSpeed;
+        anim = GetComponent<Animator>();
     }
 
 
@@ -53,6 +64,7 @@ public class CharacterMovement : MonoBehaviour
         if (player.isGrounded)
         {
             moveDirection.y = 0;
+            //anim.SetBool("isGrounded", player.isGrounded)
             //hasJumped = false;
             canDoubleJump = false;
             if (Input.GetButton("Jump"))
@@ -60,7 +72,6 @@ public class CharacterMovement : MonoBehaviour
                 Jump();
             }
         }
-
         else
         {
             moveDirection.y -= gravity * Time.deltaTime;
@@ -70,11 +81,23 @@ public class CharacterMovement : MonoBehaviour
         {
             Jump();
         }
-        moveDirection.x = currentSpeed;
 
+
+        if (!startRunning)
+        {
+            Debug.Log("Press "+ startKey + " to start!");
+            moveDirection.x = 0;
+            if (Input.GetKeyDown(startKey))
+            {
+                startRunning = true;
+            }
+
+        }
+        else
+        {
+            moveDirection.x = currentSpeed;
+        }
         player.Move(moveDirection * Time.deltaTime);
-
-        //Debug.Log(player.isGrounded);
     }
     public void Jump()
     {
@@ -84,6 +107,7 @@ public class CharacterMovement : MonoBehaviour
             moveDirection.y = jumpSpeed;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
             //jumpsound.Play();
+            //anim.SetBool("hasJumped", true/false); 
             //TODO: link animation, sound etc
         }
         if (canDoubleJump)

@@ -37,9 +37,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4403344798439524}
   - component: {fileID: 114475551442143238}
+  - component: {fileID: 114224905134802726}
+  - component: {fileID: 143093647881900714}
+  - component: {fileID: 95894155428838904}
   - component: {fileID: 135813547182281186}
   - component: {fileID: 54097721753573554}
-  - component: {fileID: 143093647881900714}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -130,6 +132,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &95894155428838904
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371687756918978}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b004ca0a55021be44b06435a7c8c676b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114224905134802726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1371687756918978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 145cedfdebf61124893891cb70960d3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114475551442143238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,6 +201,6 @@ CharacterController:
   m_Radius: 0.5
   m_SlopeLimit: 85
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}

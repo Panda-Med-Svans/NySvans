@@ -18,7 +18,7 @@ public class ScoreTracker : MonoBehaviour {
     }
     public void Owl()
     {
-        Debug.Log("Do something here");
+        Debug.Log("Collected Owl: Do something here");
         //like unmute music track
         //add score for collecting an owl
     }
