@@ -30,6 +30,7 @@ public class CharacterMovement : MonoBehaviour
     //private bool hasJumped = false;
     private bool canDoubleJump = false;
     public float delayBeforeDoubleJump;
+    public float deadzone = 0.2f;
 
         #endregion
 
@@ -61,8 +62,9 @@ public class CharacterMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (player.isGrounded)
+        if (IsGrounded())
         {
+
             moveDirection.y = 0;
             //anim.SetBool("isGrounded", player.isGrounded)
             //hasJumped = false;
@@ -72,6 +74,18 @@ public class CharacterMovement : MonoBehaviour
                 Jump();
             }
         }
+        //if (player.isGrounded)
+        //{
+
+        //    moveDirection.y = 0;
+        //    //anim.SetBool("isGrounded", player.isGrounded)
+        //    //hasJumped = false;
+        //    canDoubleJump = false;
+        //    if (Input.GetButton("Jump"))
+        //    {
+        //        Jump();
+        //    }
+        //}
         else
         {
             moveDirection.y -= gravity * Time.deltaTime;
@@ -170,5 +184,28 @@ public class CharacterMovement : MonoBehaviour
 
 
         #endregion
+
+    bool IsGrounded()
+    {
+        if (player.isGrounded)
+            return true;
+
+        Vector3 bottom = player.transform.position - new Vector3(0, player.height / 2, 0);
+
+        RaycastHit hit;
+        if(Physics.Raycast(bottom, new Vector3(0,-1, 0), out hit, deadzone))
+        {
+            player.Move(new Vector3(0, -hit.distance, 0));
+            return true;
+        }
+
+        return false;
+
+
+
+    }
+
+
+
 
 }
