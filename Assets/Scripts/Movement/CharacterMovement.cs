@@ -60,7 +60,7 @@ public class CharacterMovement : MonoBehaviour
 
         #region Double Jump
 
-    void FixedUpdate()
+    void Update()
     {
         if (IsGrounded())
         {
