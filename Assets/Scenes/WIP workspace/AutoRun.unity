@@ -1494,7 +1494,8 @@ MonoBehaviour:
   anim: {fileID: 0}
   hasJumped: 0
   delayBeforeDoubleJump: 0.2
-  startSpeed: 5
+  deadzone: 0.05
+  startSpeed: 11
 --- !u!95 &602656178
 Animator:
   serializedVersion: 3
