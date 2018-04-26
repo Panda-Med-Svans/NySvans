@@ -5,6 +5,7 @@ using UnityEngine;
 public class LeafPickUp : MonoBehaviour {
     private ScoreTracker callScoreTracker;
     private LeafCollection callCollectSound;
+    //public bool normalLeaf, superLeaf;
 
     void Start()
     {
@@ -18,10 +19,19 @@ public class LeafPickUp : MonoBehaviour {
     {
         if (other.name == "Player")
         {
-            callScoreTracker.ScoreChange();
+            callScoreTracker.ScoreChange(); //delete om vi ska ha normal/super leafs
             callCollectSound.PlayJingle();
             //gameObject.SetActive(false);
+            //if(normalLeaf)
+            //{
+            //callScoreTracker.NormalLeaf();
+            //}
+            //if(superLeaf
+            //{
+            //callScoreTracker.SuperLeaf();
+            //}
             Destroy(gameObject);
+            
         }
     }
 

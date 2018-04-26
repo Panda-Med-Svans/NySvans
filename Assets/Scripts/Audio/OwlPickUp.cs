@@ -7,11 +7,15 @@ public class OwlPickUp : MonoBehaviour
 
     private ScoreTracker callOwl;
     private OwlCollection callCollectSound;
+    private MusicAdvance owlAdvance;
+    public bool owlTrummor, owlBas, owlGitarr, owlBanjo;
+
 
     void Start()
     {
         callOwl = FindObjectOfType<ScoreTracker>();
         callCollectSound = FindObjectOfType<OwlCollection>();
+        owlAdvance = FindObjectOfType<MusicAdvance>();
     }
 
 
@@ -20,10 +24,26 @@ public class OwlPickUp : MonoBehaviour
     {
         if (other.name == "Player")
         {
-            callOwl.Owl();
-            callCollectSound.OwlCollect();
+            //callOwl.Owl();                //Ger score
+            callCollectSound.OwlCollect();  //spelar upp jingle
             //gameObject.SetActive(false);
-            Destroy(gameObject);
+            Destroy(gameObject);            //dödar objektet
+            if(owlTrummor)
+            {
+                owlAdvance.Trummor();
+            }
+            if (owlBas)
+            {
+                owlAdvance.Bas();
+            }
+            if (owlGitarr)
+            {
+                owlAdvance.Gitarr();
+            }
+            if(owlBanjo)
+            {
+                owlAdvance.Banjo();
+            }
         }
     }
 

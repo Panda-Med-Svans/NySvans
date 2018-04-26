@@ -14,12 +14,20 @@ public class ScoreTracker : MonoBehaviour {
     }
     public void ScoreChange()
     {
+        //När man plockar upp ett löv;
         scorePoints += 1 * scoreMultiplier;
     }
     public void Owl()
     {
-        Debug.Log("Collected Owl: Do something here");
-        //like unmute music track
-        //add score for collecting an owl
+        //Om man redan har plockat en uggla av denna typen
+        scorePoints += 1 * scoreMultiplier;
+    }
+    public void NormalLeaf()
+    {
+        //Gör något
+    }
+    public void SuperLeaf()
+    {
+        //Gör något extra
     }
 }
