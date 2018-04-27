@@ -5,7 +5,7 @@ using UnityEngine;
 public class OwlPickUp : MonoBehaviour
 {
 
-    private ScoreTracker callOwl;
+    //private ScoreTracker callOwl;
     private OwlCollection callCollectSound;
     private MusicAdvance owlAdvance;
     public bool owlTrummor, owlBas, owlGitarr, owlBanjo;
@@ -13,7 +13,7 @@ public class OwlPickUp : MonoBehaviour
 
     void Start()
     {
-        callOwl = FindObjectOfType<ScoreTracker>();
+        //callOwl = FindObjectOfType<ScoreTracker>();
         callCollectSound = FindObjectOfType<OwlCollection>();
         owlAdvance = FindObjectOfType<MusicAdvance>();
     }

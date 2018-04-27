@@ -86,6 +86,7 @@ public class CharacterMovement : MonoBehaviour
         {
             Jump();
         }
+        
 
         #region Start Running
 
@@ -140,8 +141,9 @@ public class CharacterMovement : MonoBehaviour
     {
         if (player.isGrounded)
         {
-            //hasJumped = true;
+            
             moveDirection.y = jumpSpeed;
+            hasJumped = true;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
             //jumpsound.Play();
             //anim.SetBool("hasJumped", true/false); 
@@ -153,6 +155,11 @@ public class CharacterMovement : MonoBehaviour
             moveDirection.y = jumpSpeed;
             //jumpsound.Play();
             //TODO: link animation, sound etc
+        }
+        if (!player.isGrounded && !hasJumped) //Ett hopp medans man faller
+        {
+            hasJumped = true;
+            moveDirection.y = jumpSpeed;
         }
     }
     void EnableDoubleJump()
@@ -168,7 +175,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (player.isGrounded)
         {
-            //Debug.Log("True. PC");
+            hasJumped = false;
             return true;
         }
         
@@ -182,7 +189,6 @@ public class CharacterMovement : MonoBehaviour
             //Debug.Log("True. Ray");
             return true;
         }
-        //Debug.Log("False");
         return false;
     }
 
