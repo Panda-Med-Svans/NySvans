@@ -34,43 +34,29 @@ public class CharacterJump : MonoBehaviour {
         doubleJumpCount = numberOfDoubleJumps;
     }
 
-    //void FixedUpdate()
-    //{
-    //    Debug.Log(doubleJumpCount);
-    //    if (Input.GetButtonDown("Jump") && doubleJumpCount <= numberOfDoubleJumps)//gör doubleJumpCount till bool, hasDoubleJumped
-    //    {
-    //        rb.velocity += jumpSpeed * Vector3.up;
-    //        doubleJumpCount++;
-    //    }
-    //}
-
     void FixedUpdate()
     {
-        //Debug.Log("isGrounded is " + isGrounded + " & canDoubleJump is " + canDoubleJump);
-        if (Input.GetButtonDown("Jump"))
+        Debug.Log(doubleJumpCount);
+        if (Input.GetButtonDown("Jump") && doubleJumpCount <= numberOfDoubleJumps)
         {
-            Debug.Log("pressed Jump");
-            //moveDirection.x = currentSpeed;
-            if (isGrounded)
-            {
-                Jump();
-            }
-            if (canDoubleJump)
-            {
-                Jump();
-            }
-            moveDirection.x = currentSpeed;
+            moveDirection.y = jumpSpeed;
+            doubleJumpCount++;
         }
         else
         {
             moveDirection.y -= gravity * Time.deltaTime;
         }
+        player.Move(moveDirection * Time.deltaTime);
     }
+
+  
 
     void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("hit the ground");
         if (collision.gameObject.tag == "Ground")
         {
+            Debug.Log("and it is the ground");
             isGrounded = true;
             hasJumped = false;
             canDoubleJump = false;
@@ -78,34 +64,57 @@ public class CharacterJump : MonoBehaviour {
         }
         if (collision.gameObject.tag == "Bad")
         {
-            Bad();
+            //Bad();
         }
     }
 
-    void Bad()
-    {
-        //TODO something when you touch bad
-    }
 
-    void Jump()
-    {
-        if (isGrounded)
-        {
-            hasJumped = true;
-            isGrounded = false;
-            moveDirection.y = jumpSpeed;
-            Invoke("EnableDoubleJump", delayBeforeDoubleJump);
-            //TODO: link animation, sound etc
-        }
-        if (canDoubleJump)
-        {
-            canDoubleJump = false;
-            moveDirection.y = jumpSpeed;
-            //TODO: link animation, sound etc
-        }
-    }
-    void EnableDoubleJump()
-    {
-        canDoubleJump = true;
-    }
+  //void FixedUpdate()
+    //{
+    //    //Debug.Log("isGrounded is " + isGrounded + " & canDoubleJump is " + canDoubleJump);
+    //    if (Input.GetButtonDown("Jump"))
+    //    {
+    //        Debug.Log("pressed Jump");
+    //        //moveDirection.x = currentSpeed;
+    //        if (isGrounded)
+    //        {
+    //            Jump();
+    //        }
+    //        if (canDoubleJump)
+    //        {
+    //            Jump();
+    //        }
+    //        moveDirection.x = currentSpeed;
+    //    }
+    //    else
+    //    {
+    //        moveDirection.y -= gravity * Time.deltaTime;
+    //    }
+    //}
+    //void Bad()
+    //{
+    //    //TODO something when you touch bad
+    //}
+
+    //void Jump()
+    //{
+    //    if (isGrounded)
+    //    {
+    //        hasJumped = true;
+    //        isGrounded = false;
+    //        moveDirection.y = jumpSpeed;
+    //        Invoke("EnableDoubleJump", delayBeforeDoubleJump);
+    //        //TODO: link animation, sound etc
+    //    }
+    //    if (canDoubleJump)
+    //    {
+    //        canDoubleJump = false;
+    //        moveDirection.y = jumpSpeed;
+    //        //TODO: link animation, sound etc
+    //    }
+    //}
+    //void EnableDoubleJump()
+    //{
+    //    canDoubleJump = true;
+    //}
 }
