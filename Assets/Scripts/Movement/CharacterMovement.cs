@@ -12,7 +12,9 @@ public class CharacterMovement : MonoBehaviour
     public float gravity = 20.0f;
     private Vector2 moveDirection = Vector2.zero;
     private CharacterController player;
-    private bool startRunning = false;
+
+    
+    public static bool startRunning = false;
     public KeyCode startKey = KeyCode.Q;
 
 
@@ -94,10 +96,10 @@ public class CharacterMovement : MonoBehaviour
         {
             Debug.Log("Press "+ startKey + " to start!");
             moveDirection.x = 0;
-            if (Input.GetKeyDown(startKey)) //ändra till menyklickS
-            {
-                startRunning = true;
-            }
+            //if (Input.GetKeyDown(startKey)) //ändra till menyklickS
+            //{
+            //    startRunning = true;
+            //}
         }
         else
         {
