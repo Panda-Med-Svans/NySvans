@@ -8,14 +8,12 @@ public class MusicAdvance : MonoBehaviour {
     private AudioSource trummor;
     private AudioSource gitarr;
     private AudioSource banjo;
-    private ScoreTracker score;
 
     void Start() {
         bas = GameObject.Find("Bas").GetComponent<AudioSource>();
         trummor = GameObject.Find("Trummor").GetComponent<AudioSource>();
         gitarr = GameObject.Find("Gitarr").GetComponent<AudioSource>();
         banjo = GameObject.Find("Banjo").GetComponent<AudioSource>();
-        score = FindObjectOfType<ScoreTracker>();
     }
 
     //void Update() //för att testa att det går att "unmute" musiken
@@ -47,19 +45,19 @@ public class MusicAdvance : MonoBehaviour {
         }
         else
         {
-            score.Owl();
+            Debug.Log("Plockade upp fler av Bas Ugglor än planerat");
         }
     }
 
     public void Trummor()
     {
-        if(trummor.mute == true)
+        if (trummor.mute == true)
         {
             trummor.mute = !trummor.mute;
         }
         else
         {
-            score.Owl();
+            Debug.Log("Plockade upp fler av Trumm Ugglor än planerat");
         }
     }
 
@@ -71,7 +69,7 @@ public class MusicAdvance : MonoBehaviour {
         }
         else
         {
-            score.Owl();
+            Debug.Log("Plockade upp fler av Gitarr Ugglor än planerat");
         }
     }
 
@@ -83,7 +81,7 @@ public class MusicAdvance : MonoBehaviour {
         }
         else
         {
-            score.Owl();
+            Debug.Log("Plockade upp fler av Banjo Ugglor än planerat");
         }
     }
 

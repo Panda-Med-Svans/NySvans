@@ -19,7 +19,7 @@ public class LeafPickUp : MonoBehaviour {
     {
         if (other.name == "Player")
         {
-            callScoreTracker.ScoreChange(); //delete om vi ska ha normal/super leafs
+            callScoreTracker.NormalLeaf(); //delete om vi ska ha normal/super leafs
             callCollectSound.PlayJingle();
             //gameObject.SetActive(false);
             //if(normalLeaf)

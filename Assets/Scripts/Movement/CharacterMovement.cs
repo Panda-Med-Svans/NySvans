@@ -24,7 +24,7 @@ public class CharacterMovement : MonoBehaviour
 
     #region Animations
 
-    private Animator anim;
+    //private Animator anim;
     private bool hasJumped = false;
 
     #endregion
@@ -66,7 +66,7 @@ public class CharacterMovement : MonoBehaviour
         //maxSpeed = startSpeed * maxSpeedMultiplier;
         player = GetComponent<CharacterController>();
         //currentSpeed = runSpeed;
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     #endregion
@@ -123,7 +123,7 @@ public class CharacterMovement : MonoBehaviour
         
 
         player.Move(moveDirection * Time.deltaTime);
-        Debug.Log(currentSpeed);
+        //Debug.Log(currentSpeed);
 
         #region placeholder Tilt speed
         //    //Debug.Log(currentSpeed);
