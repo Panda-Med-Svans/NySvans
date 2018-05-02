@@ -13,20 +13,23 @@ public class PauseScreen : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        if (Input.GetKeyDown(KeyCode.Escape) && CharacterMovement.startRunning == true)
+  
+    }
+
+    public void CheckPause()
+    {
+        if (GameIsPaused)
         {
-            if (GameIsPaused)
-            {
-                Resume();
-            }
-            else
-            {
-                Pause();
-            }
+            Resume();
+        }
+        else
+        {
+            Pause();
         }
     }
 
-    public void Resume()
+
+    void Resume()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
@@ -45,6 +48,7 @@ public class PauseScreen : MonoBehaviour {
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        CharacterMovement.startRunning = false;
     }
 
 

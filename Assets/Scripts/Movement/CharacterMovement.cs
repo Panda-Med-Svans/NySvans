@@ -4,41 +4,44 @@ using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
-    
+
 
     #region Character Basics
 
+    public float runSpeed = 11f;
+    [Range(0.1f, 2f)][Tooltip("Lower is faster")]
+    public float accelrationRate;
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
     private Vector2 moveDirection = Vector2.zero;
     private CharacterController player;
-
-    
     public static bool startRunning = false;
-    public KeyCode startKey = KeyCode.Q;
-
+    //public KeyCode startKey = KeyCode.Q;
+    public bool autoStart;
+    [Space]
 
     #endregion
 
     #region Animations
 
-    public Animator anim;
-    public bool hasJumped = false;
+    private Animator anim;
+    private bool hasJumped = false;
 
     #endregion
 
     #region Jump
-
+    
     //private bool hasJumped = false;
     private bool canDoubleJump = false;
+    [Range(0.1f, 0.8f)]
     public float delayBeforeDoubleJump;
+    [Range(0.1f, 0.5f)]
     public float deadzone = 0.2f;
 
     #endregion
 
     #region Tilt Controls + Character Speed
 
-    public float startSpeed = 6f;
     private float currentSpeed;
     //public float minSpeedMultiplier;
     //private float minSpeed;
@@ -55,10 +58,14 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
+        if(autoStart)
+        {
+            startRunning = true;
+        }
         //minSpeed = startSpeed * minSpeedMultiplier;
         //maxSpeed = startSpeed * maxSpeedMultiplier;
         player = GetComponent<CharacterController>();
-        currentSpeed = startSpeed;
+        //currentSpeed = runSpeed;
         anim = GetComponent<Animator>();
     }
 
@@ -94,12 +101,13 @@ public class CharacterMovement : MonoBehaviour
 
         if (!startRunning)
         {
-            Debug.Log("Press "+ startKey + " to start!");
+            //Debug.Log("Press "+ startKey + " to start!");
             moveDirection.x = 0;
             //if (Input.GetKeyDown(startKey)) //ändra till menyklickS
             //{
             //    startRunning = true;
             //}
+            
         }
         else
         {
@@ -108,7 +116,14 @@ public class CharacterMovement : MonoBehaviour
 
         #endregion
 
+        if (currentSpeed < runSpeed && startRunning)
+        {
+            currentSpeed += Time.deltaTime / accelrationRate;
+        }
+        
+
         player.Move(moveDirection * Time.deltaTime);
+        Debug.Log(currentSpeed);
 
         #region placeholder Tilt speed
         //    //Debug.Log(currentSpeed);
