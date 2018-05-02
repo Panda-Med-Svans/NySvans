@@ -3002,6 +3002,31 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114677110976724314, guid: 6bedb20345313444c924b439e9241164,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114677110976724314, guid: 6bedb20345313444c924b439e9241164,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1381207623}
+    - target: {fileID: 114677110976724314, guid: 6bedb20345313444c924b439e9241164,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 114677110976724314, guid: 6bedb20345313444c924b439e9241164,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 114041245775644338, guid: 6bedb20345313444c924b439e9241164,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6bedb20345313444c924b439e9241164, type: 2}
   m_IsPrefabParent: 0
@@ -19474,6 +19499,11 @@ Transform:
   m_Father: {fileID: 1150288663}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1381207623 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1701433989049246, guid: 6bedb20345313444c924b439e9241164,
+    type: 2}
+  m_PrefabInternal: {fileID: 156520577}
 --- !u!1001 &1395267015
 Prefab:
   m_ObjectHideFlags: 0
@@ -26895,6 +26925,21 @@ Prefab:
         type: 2}
       propertyPath: hasJumped
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114475551442143238, guid: 20bf7280669f2c34699ade1e45dfedc0,
+        type: 2}
+      propertyPath: autoStart
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114475551442143238, guid: 20bf7280669f2c34699ade1e45dfedc0,
+        type: 2}
+      propertyPath: accelrationRate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114475551442143238, guid: 20bf7280669f2c34699ade1e45dfedc0,
+        type: 2}
+      propertyPath: runSpeed
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 20bf7280669f2c34699ade1e45dfedc0, type: 2}
