@@ -4668,6 +4668,12 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!114 &273611712 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114238904379826218, guid: 6bedb20345313444c924b439e9241164,
+    type: 2}
+  m_PrefabInternal: {fileID: 156520577}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!43 &276458624
 Mesh:
   m_ObjectHideFlags: 0
@@ -5926,6 +5932,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: leafText
+      value: 
+      objectReference: {fileID: 273611712}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: owlText
+      value: 
+      objectReference: {fileID: 863014047}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56790539279bded4c9bc25824bf6889b, type: 2}
   m_IsPrefabParent: 0
@@ -14831,6 +14847,12 @@ Transform:
   m_PrefabParentObject: {fileID: 4849677323831798, guid: 55e93de9a70751246aca771687201d2d,
     type: 2}
   m_PrefabInternal: {fileID: 862777722}
+--- !u!114 &863014047 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114867174525008150, guid: 6bedb20345313444c924b439e9241164,
+    type: 2}
+  m_PrefabInternal: {fileID: 156520577}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!43 &872646181
 Mesh:
   m_ObjectHideFlags: 0
