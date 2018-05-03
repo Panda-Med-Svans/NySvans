@@ -38,6 +38,8 @@ public class CharacterMovement : MonoBehaviour
     [Range(0.1f, 0.5f)]
     public float deadzone = 0.2f;
 
+    public float jumpBoost;
+
     #endregion
 
     #region Tilt Controls + Character Speed
@@ -65,6 +67,7 @@ public class CharacterMovement : MonoBehaviour
         //minSpeed = startSpeed * minSpeedMultiplier;
         //maxSpeed = startSpeed * maxSpeedMultiplier;
         player = GetComponent<CharacterController>();
+
         //currentSpeed = runSpeed;
         //anim = GetComponent<Animator>();
     }
@@ -185,7 +188,17 @@ public class CharacterMovement : MonoBehaviour
     }
 
     #endregion
-    
+
+    #region
+
+    public void BoostJump()
+    {
+        Debug.Log("going to jump");
+        moveDirection.y = jumpSpeed * jumpBoost;
+    }
+
+    #endregion
+
     #region Grounded
 
     bool IsGrounded()
