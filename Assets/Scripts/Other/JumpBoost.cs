@@ -14,10 +14,8 @@ public class JumpBoost : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Has collided");
         if(other.tag == "Player")
         {
-            Debug.Log("checked");
             boost.BoostJump();
         }
     }

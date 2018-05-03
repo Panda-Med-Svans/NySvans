@@ -24,14 +24,13 @@ public class CharacterMovement : MonoBehaviour
 
     #region Animations
 
-    //private Animator anim;
+    private Animator anim;
     private bool hasJumped = false;
 
     #endregion
 
     #region Jump
     
-    //private bool hasJumped = false;
     private bool canDoubleJump = false;
     [Range(0.1f, 0.8f)]
     public float delayBeforeDoubleJump;
@@ -64,12 +63,8 @@ public class CharacterMovement : MonoBehaviour
         {
             startRunning = true;
         }
-        //minSpeed = startSpeed * minSpeedMultiplier;
-        //maxSpeed = startSpeed * maxSpeedMultiplier;
         player = GetComponent<CharacterController>();
-
-        //currentSpeed = runSpeed;
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     #endregion
@@ -83,7 +78,6 @@ public class CharacterMovement : MonoBehaviour
         {
             moveDirection.y = 0;
             //anim.SetBool("isGrounded", player.isGrounded)
-            //hasJumped = false;
             canDoubleJump = false;
             if (Input.GetButton("Jump"))
             {
@@ -104,16 +98,11 @@ public class CharacterMovement : MonoBehaviour
 
         if (!startRunning)
         {
-            //Debug.Log("Press "+ startKey + " to start!");
             moveDirection.x = 0;
-            //if (Input.GetKeyDown(startKey)) //ändra till menyklickS
-            //{
-            //    startRunning = true;
-            //}
-            
         }
         else
         {
+            anim.SetTrigger("isRunning");
             moveDirection.x = currentSpeed;
         }
 
@@ -126,7 +115,6 @@ public class CharacterMovement : MonoBehaviour
         
 
         player.Move(moveDirection * Time.deltaTime);
-        //Debug.Log(currentSpeed);
 
         #region placeholder Tilt speed
         //    //Debug.Log(currentSpeed);
@@ -193,8 +181,8 @@ public class CharacterMovement : MonoBehaviour
 
     public void BoostJump()
     {
-        Debug.Log("going to jump");
         moveDirection.y = jumpSpeed * jumpBoost;
+        //bool för hopp animation
     }
 
     #endregion
