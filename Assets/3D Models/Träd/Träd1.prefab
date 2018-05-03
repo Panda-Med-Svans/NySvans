@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33660339910929080}
   - component: {fileID: 23067516340543178}
   m_Layer: 0
-  m_Name: Tr_d2
+  m_Name: "Tr\xE4d1"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
