@@ -5942,6 +5942,26 @@ Prefab:
       propertyPath: owlText
       value: 
       objectReference: {fileID: 863014047}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: startLeaf
+      value: StartLeafText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: pauseleaf
+      value: PauseLeafText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: startOwl
+      value: StartOwlText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114973852537495168, guid: 56790539279bded4c9bc25824bf6889b,
+        type: 2}
+      propertyPath: pauseOwl
+      value: PauseLeafText
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56790539279bded4c9bc25824bf6889b, type: 2}
   m_IsPrefabParent: 0
