@@ -5,26 +5,32 @@ using UnityEngine;
 public class CharacterMovement : MonoBehaviour
 {
 
-
     #region Character Basics
 
-    public float runSpeed = 11f;
+    public float runSpeed = 6f;
     [Range(0.1f, 2f)][Tooltip("Lower is faster")]
     public float accelrationRate;
+    private float currentSpeed;
+
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
+
     private Vector2 moveDirection = Vector2.zero;
     private CharacterController player;
-    public static bool startRunning = false;
-    //public KeyCode startKey = KeyCode.Q;
+
+    [Tooltip("För att starta utan att behöva klicka på menyer")]
     public bool autoStart;
+    public static bool startRunning = false;
+    
+
     [Space]
 
     #endregion
 
     #region Animations
 
-    private Animator anim;
+    [HideInInspector]
+    public Animator anim;
     private bool hasJumped = false;
 
     #endregion
@@ -41,17 +47,7 @@ public class CharacterMovement : MonoBehaviour
 
     #endregion
 
-    #region Tilt Controls + Character Speed
 
-    private float currentSpeed;
-    //public float minSpeedMultiplier;
-    //private float minSpeed;
-    //public float maxSpeedMultiplier;
-    //private float maxSpeed;
-    //public float smoothTime;
-    //public something tiltAngle;
-
-    #endregion
 
 
 
@@ -77,7 +73,6 @@ public class CharacterMovement : MonoBehaviour
         if (IsGrounded())
         {
             moveDirection.y = 0;
-            //anim.SetBool("isGrounded", player.isGrounded)
             canDoubleJump = false;
             if (Input.GetButton("Jump"))
             {
@@ -154,7 +149,7 @@ public class CharacterMovement : MonoBehaviour
             hasJumped = true;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
             //jumpsound.Play();
-            //anim.SetBool("hasJumped", true/false); 
+            anim.SetTrigger("isJumping");
             //TODO: link animation, sound etc
         }
         if (canDoubleJump)
@@ -162,6 +157,7 @@ public class CharacterMovement : MonoBehaviour
             canDoubleJump = false;
             moveDirection.y = jumpSpeed;
             //jumpsound.Play();
+            anim.SetTrigger("isDoubleJumping");
             //TODO: link animation, sound etc
         }
         if (!player.isGrounded && !hasJumped) //Ett hopp medans man faller
@@ -193,6 +189,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (player.isGrounded)
         {
+            anim.SetBool("isGrounded", true);
             hasJumped = false;
             return true;
         }
@@ -207,6 +204,7 @@ public class CharacterMovement : MonoBehaviour
             //Debug.Log("True. Ray");
             return true;
         }
+        anim.SetBool("isGrounded", false);
         return false;
     }
 

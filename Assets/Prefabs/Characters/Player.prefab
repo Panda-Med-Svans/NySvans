@@ -52,7 +52,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4403344798439524}
   - component: {fileID: 114475551442143238}
-  - component: {fileID: 114224905134802726}
   - component: {fileID: 143093647881900714}
   - component: {fileID: 95894155428838904}
   - component: {fileID: 135813547182281186}
@@ -199,7 +198,7 @@ Animator:
   m_GameObject: {fileID: 1371687756918978}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b004ca0a55021be44b06435a7c8c676b, type: 2}
+  m_Controller: {fileID: 9100000, guid: 363eaff239648564c9aed43a06c16f73, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -207,18 +206,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114224905134802726
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1371687756918978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 145cedfdebf61124893891cb70960d3d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
 --- !u!114 &114475551442143238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -234,7 +221,7 @@ MonoBehaviour:
   accelrationRate: 0.1
   jumpSpeed: 10
   gravity: 20
-  autoStart: 0
+  autoStart: 1
   delayBeforeDoubleJump: 0.2
   deadzone: 0.1
   jumpBoost: 2
