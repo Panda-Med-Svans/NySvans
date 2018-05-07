@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour {
 
-    private CharacterMovement charMovement;
+    public CharacterMovement charMovement;
     public float animDuration;
 
     // Use this for initialization
@@ -16,6 +16,7 @@ public class DeathZone : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.name);
         if (other.tag == "Player")
         {
             charMovement.anim.SetTrigger("bad");
@@ -24,6 +25,7 @@ public class DeathZone : MonoBehaviour {
             //spela upp dödsanimationen
             StartCoroutine(ReloadAfterDeath());
         }
+
     }
 
     IEnumerator ReloadAfterDeath()

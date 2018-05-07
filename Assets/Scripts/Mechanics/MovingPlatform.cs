@@ -5,11 +5,11 @@ using UnityEngine;
 public class MovingPlatform : MonoBehaviour {
 
     public bool moving = false;
-    private CharacterMovement charSpeed;
+    //private CharacterMovement charSpeed;
 
 	// Use this for initialization
 	void Start () {
-        charSpeed = GameObject.Find("Player").GetComponent<CharacterMovement>();
+        //charSpeed = GameObject.Find("Player").GetComponent<CharacterMovement>();
 
     }
 
