@@ -10,7 +10,8 @@ public class CharacterMovement : MonoBehaviour
     public float runSpeed = 6f;
     [Range(0.1f, 2f)][Tooltip("Lower is faster")]
     public float accelrationRate;
-    private float currentSpeed;
+    [HideInInspector]
+    public float currentSpeed;
 
     public float jumpSpeed = 8.0f;
     public float gravity = 20.0f;
@@ -173,12 +174,12 @@ public class CharacterMovement : MonoBehaviour
 
     #endregion
 
-    #region
+    #region ShroomBoost
 
     public void BoostJump()
     {
         moveDirection.y = jumpSpeed * jumpBoost;
-        //bool för hopp animation
+        //trigger för hopp animation
     }
 
     #endregion

@@ -5,22 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour {
 
-    [SerializeField]
     private CharacterMovement charMovement;
     public float animDuration;
 
     // Use this for initialization
     void Start() {
         charMovement = GameObject.Find("Player").GetComponent<CharacterMovement>();
-        Debug.Log(charMovement);
     }
-
-    // Update is called once per frame
-    void Update() {
-
-    }
-
-
 
 
     void OnTriggerEnter(Collider other)
@@ -29,7 +20,7 @@ public class DeathZone : MonoBehaviour {
         {
             charMovement.anim.SetTrigger("bad");
             charMovement.enabled = !charMovement.enabled;
-            //stäng av charMovement på player
+            //stopMusic(); pausa musiken, eller sänk den eller något
             //spela upp dödsanimationen
             StartCoroutine(ReloadAfterDeath());
         }
