@@ -219,9 +219,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runSpeed: 6
   accelrationRate: 0.1
+  currentSpeed: 0
   jumpSpeed: 10
   gravity: 20
-  autoStart: 1
+  autoStart: 0
+  anim: {fileID: 0}
   delayBeforeDoubleJump: 0.2
   deadzone: 0.1
   jumpBoost: 2

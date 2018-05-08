@@ -22,7 +22,7 @@ public class OwlPickUp : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Player")
+        if (other.tag == "Player")
         {
             callOwl.Owl();                  //Ger score
             callCollectSound.OwlCollect();  //spelar upp jingle

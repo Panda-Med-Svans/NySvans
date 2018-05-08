@@ -17,7 +17,7 @@ public class LeafPickUp : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.name == "Player")
+        if (other.tag == "Player")
         {
             callScoreTracker.NormalLeaf(); //delete om vi ska ha normal/super leafs
             callCollectSound.PlayJingle();

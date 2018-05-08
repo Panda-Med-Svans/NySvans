@@ -29,7 +29,6 @@ public class CharacterMovement : MonoBehaviour
     #endregion
 
     #region Animations
-
     [HideInInspector]
     public Animator anim;
     private bool hasJumped = false;
@@ -60,8 +59,8 @@ public class CharacterMovement : MonoBehaviour
         {
             startRunning = true;
         }
-        player = GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
+        player = GetComponent<CharacterController>();
     }
 
     #endregion
@@ -205,7 +204,7 @@ public class CharacterMovement : MonoBehaviour
             //Debug.Log("True. Ray");
             return true;
         }
-        anim.SetBool("isGrounded", false);
+        //anim.SetBool("isGrounded", false);
         return false;
     }
 

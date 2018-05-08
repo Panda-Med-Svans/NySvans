@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class DeathZone : MonoBehaviour {
 
+    public MusicAdvance musicAdvance;
     public CharacterMovement charMovement;
     public float animDuration;
 
@@ -21,6 +22,7 @@ public class DeathZone : MonoBehaviour {
         {
             charMovement.anim.SetTrigger("bad");
             charMovement.enabled = !charMovement.enabled;
+            //musicAdvance.MusicPause();
             //stopMusic(); pausa musiken, eller sänk den eller något
             //spela upp dödsanimationen
             StartCoroutine(ReloadAfterDeath());

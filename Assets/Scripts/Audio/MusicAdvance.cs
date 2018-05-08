@@ -35,6 +35,20 @@ public class MusicAdvance : MonoBehaviour {
     //}
 
 
+    #region Pausa Musik
+
+    public void MusicPause()
+    {
+        Debug.Log("Pausar Musik");
+        bas.Pause();
+        trummor.Pause();
+        gitarr.Pause();
+        banjo.Pause();
+        //Do something
+    }
+
+    #endregion
+
     #region Instrument delar
 
     public void Bas()
