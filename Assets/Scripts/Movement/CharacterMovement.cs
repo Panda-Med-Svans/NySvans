@@ -158,7 +158,7 @@ public class CharacterMovement : MonoBehaviour
             moveDirection.y = jumpSpeed;
             //jumpsound.Play();
             anim.SetTrigger("isDoubleJumping");
-            //TODO: link animation, sound etc
+            //TODO: sound etc
         }
         if (!player.isGrounded && !hasJumped) //Ett hopp medans man faller
         {
@@ -204,7 +204,7 @@ public class CharacterMovement : MonoBehaviour
             //Debug.Log("True. Ray");
             return true;
         }
-        //anim.SetBool("isGrounded", false);
+        anim.SetBool("isGrounded", false);
         return false;
     }
 

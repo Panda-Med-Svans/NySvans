@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        target = GameObject.Find("LookAt").GetComponent<Transform>();
+        //target = GameObject.Find("LookAt").GetComponent<Transform>();
     }
 
     // Update is called once per frame

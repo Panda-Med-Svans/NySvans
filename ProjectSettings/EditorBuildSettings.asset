@@ -8,3 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WIP workspace/Level Concept 1.unity
     guid: 39372307db0793249b84c4ec2c9cf56e
+  - enabled: 1
+    path: Assets/Scenes/LoadingScreen.unity
+    guid: 896aea8dca475be49abbb58cd96e56fc
+  - enabled: 1
+    path: Assets/Scenes/WIP workspace/Bollhav.unity
+    guid: fe19d61a1b1e4994a9b4c21e0d5bd216

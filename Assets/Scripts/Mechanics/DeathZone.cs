@@ -10,8 +10,10 @@ public class DeathZone : MonoBehaviour {
     public float animDuration;
 
     // Use this for initialization
-    void Start() {
-        charMovement = GameObject.Find("Player").GetComponent<CharacterMovement>();
+    void Start()
+    {
+        musicAdvance = GameObject.Find("SoundHandler").GetComponent<MusicAdvance>();
+        charMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterMovement>();
     }
 
 
@@ -22,8 +24,7 @@ public class DeathZone : MonoBehaviour {
         {
             charMovement.anim.SetTrigger("bad");
             charMovement.enabled = !charMovement.enabled;
-            //musicAdvance.MusicPause();
-            //stopMusic(); pausa musiken, eller sänk den eller något
+            musicAdvance.MusicPause();
             //spela upp dödsanimationen
             StartCoroutine(ReloadAfterDeath());
         }

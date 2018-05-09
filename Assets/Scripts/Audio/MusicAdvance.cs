@@ -4,16 +4,18 @@ using UnityEngine;
 
 public class MusicAdvance : MonoBehaviour {
 
-    private AudioSource bas;
     private AudioSource trummor;
     private AudioSource gitarr;
     private AudioSource banjo;
+    private AudioSource bas;
 
-    void Start() {
-        bas = GameObject.Find("Bas").GetComponent<AudioSource>();
+    void Start()
+    {
+        //
         trummor = GameObject.Find("Trummor").GetComponent<AudioSource>();
         gitarr = GameObject.Find("Gitarr").GetComponent<AudioSource>();
         banjo = GameObject.Find("Banjo").GetComponent<AudioSource>();
+        bas = GameObject.Find("Bas").GetComponent<AudioSource>();
     }
 
     //void Update() //för att testa att det går att "unmute" musiken
@@ -25,31 +27,21 @@ public class MusicAdvance : MonoBehaviour {
     //}
 
 
-    //public void LowerAmbience()
-    //{
-    //    if (somethingreached == false)
-    //    {
-    //        ambience.volume = Mathf.word för att sakta sänkas till något värde
-    //        somethingreached = true;
-    //    }
-    //}
-
 
     #region Pausa Musik
 
     public void MusicPause()
     {
-        Debug.Log("Pausar Musik");
-        bas.Pause();
+        //Pausa alla musikspår
         trummor.Pause();
         gitarr.Pause();
         banjo.Pause();
-        //Do something
+        bas.Pause();
     }
 
     #endregion
 
-    #region Instrument delar
+    #region Unmute Instrument
 
     public void Bas()
     {
