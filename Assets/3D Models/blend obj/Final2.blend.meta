@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 0737dda2cde4fb44391f8759c7f84a86
+timeCreated: 1525949563
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: bJ_RK_001
+    100002: //RootNode
+    100004: Gr_s
+    100006: gr_s
+    100008: Gr_sH_rn
+    100010: Gr_sH_rn2
+    100012: Gr_sH_rn_001
+    100014: Gran_1
+    100016: Gran_2
+    100018: Icosphere
+    100020: Ih_ligStock
+    100022: LitetTr_d
+    100024: LitetTr_d2
+    100026: Livboj
+    100028: Plane
+    100030: Plank
+    100032: Soptunna
+    100034: Stock
+    100036: Stock2
+    100038: StorSten1
+    100040: StorSten2
+    100042: StorSten3
+    100044: StorSten4
+    100046: StorStenMedMossa1
+    100048: StorStenMedMossa2
+    100050: StorStenMedMossa3
+    100052: StorStenMedMossa4
+    100054: Stubbe2
+    100056: SuptunneH_llare
+    100058: Tr_d1
+    100060: Tr_d2
+    400000: bJ_RK_001
+    400002: //RootNode
+    400004: Gr_s
+    400006: gr_s
+    400008: Gr_sH_rn
+    400010: Gr_sH_rn2
+    400012: Gr_sH_rn_001
+    400014: Gran_1
+    400016: Gran_2
+    400018: Icosphere
+    400020: Ih_ligStock
+    400022: LitetTr_d
+    400024: LitetTr_d2
+    400026: Livboj
+    400028: Plane
+    400030: Plank
+    400032: Soptunna
+    400034: Stock
+    400036: Stock2
+    400038: StorSten1
+    400040: StorSten2
+    400042: StorSten3
+    400044: StorSten4
+    400046: StorStenMedMossa1
+    400048: StorStenMedMossa2
+    400050: StorStenMedMossa3
+    400052: StorStenMedMossa4
+    400054: Stubbe2
+    400056: SuptunneH_llare
+    400058: Tr_d1
+    400060: Tr_d2
+    2100000: Bj_rk__BJ_RK_textur_png
+    2100002: TreeMaterial_001__fyrkantigtTr_d_textur_png
+    2100004: Stubbe_Material__Stubbe_Textur_png
+    2100006: SoptunnaMaterial__soptunnaTexture_png
+    2100008: SoptunneH_llare__Sten_Texture_png
+    2100010: SoptunneH_llare__fyrkantigtTr_d_textur_png
+    2100012: Plank_Material__Plank_Textur_png
+    2100014: LivbojMaterial__Livboj_Textur_png
+    2100016: LivbojMaterial
+    2100018: Sten_Material__Sten_Texture_png
+    2300000: bJ_RK_001
+    2300002: Gr_s
+    2300004: gr_s
+    2300006: Gr_sH_rn
+    2300008: Gr_sH_rn2
+    2300010: Gr_sH_rn_001
+    2300012: Gran_1
+    2300014: Gran_2
+    2300016: Icosphere
+    2300018: Ih_ligStock
+    2300020: LitetTr_d
+    2300022: LitetTr_d2
+    2300024: Livboj
+    2300026: Plane
+    2300028: Plank
+    2300030: Soptunna
+    2300032: Stock
+    2300034: Stock2
+    2300036: StorSten1
+    2300038: StorSten2
+    2300040: StorSten3
+    2300042: StorSten4
+    2300044: StorStenMedMossa1
+    2300046: StorStenMedMossa2
+    2300048: StorStenMedMossa3
+    2300050: StorStenMedMossa4
+    2300052: Stubbe2
+    2300054: SuptunneH_llare
+    2300056: Tr_d1
+    2300058: Tr_d2
+    3300000: bJ_RK_001
+    3300002: Gr_s
+    3300004: gr_s
+    3300006: Gr_sH_rn
+    3300008: Gr_sH_rn2
+    3300010: Gr_sH_rn_001
+    3300012: Gran_1
+    3300014: Gran_2
+    3300016: Icosphere
+    3300018: Ih_ligStock
+    3300020: LitetTr_d
+    3300022: LitetTr_d2
+    3300024: Livboj
+    3300026: Plane
+    3300028: Plank
+    3300030: Soptunna
+    3300032: Stock
+    3300034: Stock2
+    3300036: StorSten1
+    3300038: StorSten2
+    3300040: StorSten3
+    3300042: StorSten4
+    3300044: StorStenMedMossa1
+    3300046: StorStenMedMossa2
+    3300048: StorStenMedMossa3
+    3300050: StorStenMedMossa4
+    3300052: Stubbe2
+    3300054: SuptunneH_llare
+    3300056: Tr_d1
+    3300058: Tr_d2
+    4300000: bJ_RK_001
+    4300002: Gr_sH_rn_001
+    4300004: Ih_ligStock
+    4300006: gr_s
+    4300008: Soptunna
+    4300010: SuptunneH_llare
+    4300012: Gr_sH_rn
+    4300014: Gr_sH_rn2
+    4300016: Gr_s
+    4300018: Plane
+    4300020: Plank
+    4300022: Icosphere
+    4300024: LitetTr_d2
+    4300026: LitetTr_d
+    4300028: Livboj
+    4300030: Stubbe2
+    4300032: Stock2
+    4300034: Stock
+    4300036: StorStenMedMossa4
+    4300038: StorStenMedMossa3
+    4300040: StorStenMedMossa2
+    4300042: StorStenMedMossa1
+    4300044: StorSten4
+    4300046: StorSten3
+    4300048: StorSten2
+    4300050: StorSten1
+    4300052: Gran_2
+    4300054: Gran_1
+    4300056: Tr_d2
+    4300058: Tr_d1
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

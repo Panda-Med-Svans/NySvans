@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: f90b979ca10284d46800608737a3895b
+timeCreated: 1525947911
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Sm_Sten
+    100002: Sm_Sten_001
+    100004: Sm_Sten_002
+    100006: Sm_Sten_003
+    100008: //RootNode
+    100010: StenKub
+    100012: StenKub_001
+    100014: StenKub_002
+    100016: Stenplatta
+    100018: Stenplatta2
+    100020: Stenplatta3
+    100022: Stenplatta4
+    400000: Sm_Sten
+    400002: Sm_Sten_001
+    400004: Sm_Sten_002
+    400006: Sm_Sten_003
+    400008: //RootNode
+    400010: StenKub
+    400012: StenKub_001
+    400014: StenKub_002
+    400016: Stenplatta
+    400018: Stenplatta2
+    400020: Stenplatta3
+    400022: Stenplatta4
+    2100000: StenMaterial__Sten_Texture_png
+    2100002: None__Sten_Texture_png
+    2100004: Material__Sten_Texture_png
+    2300000: Sm_Sten
+    2300002: Sm_Sten_001
+    2300004: Sm_Sten_002
+    2300006: Sm_Sten_003
+    2300008: StenKub
+    2300010: StenKub_001
+    2300012: StenKub_002
+    2300014: Stenplatta
+    2300016: Stenplatta2
+    2300018: Stenplatta3
+    2300020: Stenplatta4
+    3300000: Sm_Sten
+    3300002: Sm_Sten_001
+    3300004: Sm_Sten_002
+    3300006: Sm_Sten_003
+    3300008: StenKub
+    3300010: StenKub_001
+    3300012: StenKub_002
+    3300014: Stenplatta
+    3300016: Stenplatta2
+    3300018: Stenplatta3
+    3300020: Stenplatta4
+    4300000: StenKub_002
+    4300002: StenKub_001
+    4300004: StenKub
+    4300006: Sm_Sten_003
+    4300008: Sm_Sten_002
+    4300010: Sm_Sten_001
+    4300012: Sm_Sten
+    4300014: Stenplatta4
+    4300016: Stenplatta2
+    4300018: Stenplatta
+    4300020: Stenplatta3
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

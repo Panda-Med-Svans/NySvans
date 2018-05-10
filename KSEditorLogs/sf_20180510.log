@@ -2,3 +2,10 @@
 2018-05-10 11:53:15.0947 [INFO] Setting define symbol SCENE_FUSION
 2018-05-10 11:53:22.1093 [DEBUG] Scene Fusion version 1.7.2-1
 2018-05-10 12:00:08.8467 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 12:07:03.9960 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 12:07:04.0216 [INFO] Setting define symbol SCENE_FUSION
+2018-05-10 12:07:10.7170 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 12:07:40.8314 [DEBUG] Web request login error: Invalid credentials
+2018-05-10 12:09:32.7033 [INFO] Launching Scene: Level Concept 1
+2018-05-10 12:09:33.6678 [DEBUG] Connecting
+2018-05-10 12:09:33.6919 [DEBUG] Connecting to room (69133:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025

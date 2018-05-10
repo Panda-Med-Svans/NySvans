@@ -1,0 +1,48 @@
+2018-05-10 12:09:34.1341 [DEBUG] Validating model...
+2018-05-10 12:09:34.3351 [DEBUG] Model validated
+2018-05-10 12:09:34.3356 [DEBUG] Authenticating with server...
+2018-05-10 12:09:34.7021 [DEBUG] Connected to room. (69133:SceneFusion:SceneFusion)
+2018-05-10 12:09:34.7251 [INFO] Connected to server.
+2018-05-10 12:09:34.7256 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 12:09:34.7256 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 12:09:34.7256 [DEBUG] Pro License : False
+2018-05-10 12:09:34.7261 [DEBUG] Platform : WindowsEditor
+2018-05-10 12:09:34.7261 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 12:09:34.7261 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 12:09:34.7266 [DEBUG] Scene Fusion client build : 1
+2018-05-10 12:09:34.7266 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 12:09:34.7266 [DEBUG] Waiting for server response
+2018-05-10 12:09:34.8304 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 12:09:34.8304 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 12:09:35.6536 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 12:09:35.6536 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 12:09:35.6536 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 12:09:35.6536 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 12:09:35.6541 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 12:09:35.6541 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 12:09:36.0822 [DEBUG] Uploading scene 'Level Concept 1'
+2018-05-10 12:09:37.5348 [DEBUG] Compressing scene data
+2018-05-10 12:09:39.3577 [DEBUG] Spawn request. (Objects: 342)
+2018-05-10 12:09:39.3622 [DEBUG] Entity RPC. (Id: 1, Size: 11103, Reporting Threshold: 10000)
+2018-05-10 12:09:40.3072 [DEBUG] Loading complete
+2018-05-10 12:11:36.6978 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:11:58.8241 [INFO] Generating UnityEngine.TerrainData 'Assets/New Terrain 2.asset'.
+2018-05-10 12:13:05.7758 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:13:33.1608 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:13:36.7121 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:13:48.6684 [DEBUG] Refresh token (8h6ORYeQhZMyN6TNi2C5dAI01KUkT5lyeExjLcaExfBs7BYZdrbbxW9jyKSgKMqqZGEMDflgU9sp8kRKLoTU0aqoKpbIw0Qz9DFa5eNqAAIqk6kcfcHLteNTFOaBfEGbmygKwORAuAWwUIPN8nxgpq02ddiHRoGwrUSiuliHxBWpLRiiFj80my0UMe2OGmDIqnQiE1pPcegQL40g4ndmgFkmzju9CBiGxeJZtwEt1m8bj1H4ajUqLy0yhfF5Kwo) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 12:15:48.3764 [DEBUG] Spawn request. (Objects: 27)
+2018-05-10 12:20:29.7480 [DEBUG] Spawn request. (Objects: 31)
+2018-05-10 12:22:28.5438 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:25:38.9245 [DEBUG] Spawn request. (Objects: 12)
+2018-05-10 12:27:25.5157 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:27:58.7829 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:30:04.1277 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:30:54.1015 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:31:05.3300 [DEBUG] Spawn request. (Objects: 137)
+2018-05-10 12:31:24.2522 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:33:00.9969 [DEBUG] Spawn request. (Objects: 31)
+2018-05-10 12:40:16.8235 [DEBUG] Spawn request. (Objects: 31)
+2018-05-10 12:40:33.8381 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:51:46.8064 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 12:52:49.3944 [DEBUG] Spawn request. (Objects: 31)
