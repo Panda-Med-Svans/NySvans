@@ -29,3 +29,362 @@
 2018-05-10 13:25:56.7359 [INFO] Launching Scene: Level Concept 1
 2018-05-10 13:25:57.5831 [DEBUG] Connecting
 2018-05-10 13:25:57.5936 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 19:22:28.0769 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 19:22:37.0510 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 19:22:44.2585 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 19:22:44.4986 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 19:22:45.2375 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.2852 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.4336 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.4667 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.6171 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.6662 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.8147 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:45.8648 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:48.3886 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:48.4222 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:48.9686 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:49.0012 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:51.0231 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:51.0557 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.1596 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.1927 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.3421 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.3587 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.4579 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:53.5076 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:56.5390 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:56.5560 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:58.8584 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:58.8754 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:59.2232 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:22:59.2398 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:03.3651 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:03.3982 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:10.6207 [DEBUG] Play mode: False
+2018-05-10 19:23:14.4215 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 19:23:14.5308 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 19:23:15.4357 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:15.4673 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:15.6328 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:15.6489 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:15.7993 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:15.8474 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:16.0134 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:16.0464 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:18.5652 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:18.6144 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:21.3816 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:21.4142 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.2684 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.3015 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.4669 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.5000 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.7657 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:26.8319 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:28.5711 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:28.6042 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:29.0844 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:29.1010 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 19:23:34.1035 [DEBUG] Play mode: False
+2018-05-10 21:10:24.7532 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 21:10:24.8881 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 21:10:25.7228 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:25.7539 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:25.9198 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:25.9359 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:26.0858 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:26.1349 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:26.3008 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:26.3338 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:29.0508 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:29.2995 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:29.3325 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:33.1763 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:33.1923 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:33.3422 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.4289 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.4455 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.6274 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.6776 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.8925 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:35.9261 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:38.8584 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:38.8915 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:38.9907 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:39.0404 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:39.2890 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:39.3056 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:39.4710 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:41.0783 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:41.1114 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:41.6417 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:41.6578 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:46.2137 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:46.2473 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:47.0257 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:47.0753 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:47.7877 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:10:47.8374 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 21:11:19.0780 [DEBUG] Play mode: False

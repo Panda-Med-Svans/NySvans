@@ -29,3 +29,2106 @@
 2018-05-10 13:28:55.9537 [DEBUG] Spawn request. (Objects: 31)
 2018-05-10 13:29:08.3427 [DEBUG] Spawn request. (Objects: 31)
 2018-05-10 13:29:21.8293 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 13:35:11.0313 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:36:00.8327 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:36:19.5410 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:36:40.9542 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:36:47.6387 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:38:12.2754 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:38:25.5381 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:38:25.5381 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:38:25.5497 [INFO] Disconnected from server.
+2018-05-10 13:38:25.5497 [DEBUG] Disconnect. (Duration: 746)
+2018-05-10 13:38:25.5587 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:38:31.2173 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:38:31.3827 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:38:31.7126 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:38:31.7186 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:38:32.1192 [DEBUG] Validating model...
+2018-05-10 13:38:32.1773 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.2084 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.3177 [DEBUG] Model validated
+2018-05-10 13:38:32.3182 [DEBUG] Authenticating with server...
+2018-05-10 13:38:32.3633 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.3804 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.5483 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.5498 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:38:32.5633 [INFO] Connected to server.
+2018-05-10 13:38:32.5633 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:38:32.5633 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:38:32.5639 [DEBUG] Pro License : False
+2018-05-10 13:38:32.5639 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:38:32.5639 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:38:32.5639 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:38:32.5639 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:38:32.5639 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:38:32.5834 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.7520 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:32.7850 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:38:33.0467 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:38:33.0467 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:38:33.3085 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:38:33.3085 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:38:33.3085 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:38:33.3085 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:38:33.3085 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:38:33.3090 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:38:34.6751 [DEBUG] Play mode: False
+2018-05-10 13:38:34.7839 [DEBUG] Loading complete
+2018-05-10 13:38:48.9112 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:39:00.6002 [DEBUG] Spawn request. (Objects: 31)
+2018-05-10 13:39:32.3264 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:39:36.1304 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:39:49.9328 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:40:01.7435 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:40:04.3966 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:40:34.2020 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:40:45.3803 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:41:12.0533 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:41:20.1523 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:41:36.1407 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:41:45.1527 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:06.0117 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:11.8635 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:19.1255 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:26.7497 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:37.1267 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:42:37.1272 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:42:37.1372 [INFO] Disconnected from server.
+2018-05-10 13:42:37.1372 [DEBUG] Disconnect. (Duration: 146)
+2018-05-10 13:42:37.1567 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:42:39.9442 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:42:40.0942 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:42:40.4076 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:42:40.4146 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:42:40.8147 [DEBUG] Validating model...
+2018-05-10 13:42:40.8859 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:40.9170 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.0137 [DEBUG] Model validated
+2018-05-10 13:42:41.0142 [DEBUG] Authenticating with server...
+2018-05-10 13:42:41.0829 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.0994 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.2488 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.2554 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:42:41.2599 [INFO] Connected to server.
+2018-05-10 13:42:41.2599 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:42:41.2599 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:42:41.2599 [DEBUG] Pro License : False
+2018-05-10 13:42:41.2604 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:42:41.2604 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:42:41.2604 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:42:41.2604 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:42:41.2604 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:42:41.2985 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.3526 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:42:41.3526 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:42:41.4760 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:42:41.4760 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:42:41.4760 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:42:41.4765 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:42:41.4765 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:42:41.4765 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:42:41.5297 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:41.5306 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:42:42.8346 [DEBUG] Play mode: False
+2018-05-10 13:42:42.9865 [DEBUG] Loading complete
+2018-05-10 13:42:45.0408 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:50.1544 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:42:57.8142 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:43:14.9799 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:43:17.5644 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:43:32.2425 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:43:36.9277 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:44:48.0636 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:44:59.6494 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:45:09.0911 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:45:13.5524 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:45:13.5534 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:45:13.5674 [INFO] Disconnected from server.
+2018-05-10 13:45:13.5679 [DEBUG] Disconnect. (Duration: 54)
+2018-05-10 13:45:13.5900 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:45:16.4949 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:45:16.6503 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:45:16.9617 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:45:16.9677 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:45:17.3615 [DEBUG] Validating model...
+2018-05-10 13:45:17.4302 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:17.4623 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:17.5580 [DEBUG] Model validated
+2018-05-10 13:45:17.5585 [DEBUG] Authenticating with server...
+2018-05-10 13:45:17.6292 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:17.6463 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:17.7957 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:45:17.8052 [INFO] Connected to server.
+2018-05-10 13:45:17.8052 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:45:17.8052 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:45:17.8057 [DEBUG] Pro License : False
+2018-05-10 13:45:17.8057 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:45:17.8057 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:45:17.8057 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:45:17.8057 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:45:17.8057 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:45:17.8117 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:17.8448 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:18.0112 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:18.0438 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:18.3289 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:45:18.3289 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:45:18.4452 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:45:18.8260 [DEBUG] Play mode: False
+2018-05-10 13:45:18.9629 [DEBUG] Loading complete
+2018-05-10 13:45:23.8917 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:45:23.8922 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:45:23.8967 [INFO] Disconnected from server.
+2018-05-10 13:45:23.8967 [DEBUG] Disconnect. (Duration: -91)
+2018-05-10 13:45:23.9208 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:45:26.6095 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:45:26.7434 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:45:27.0382 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:45:27.0437 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:45:27.4510 [DEBUG] Validating model...
+2018-05-10 13:45:27.5347 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:27.5758 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:27.6501 [DEBUG] Model validated
+2018-05-10 13:45:27.6506 [DEBUG] Authenticating with server...
+2018-05-10 13:45:27.7343 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:27.7513 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:27.8867 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:45:27.8932 [INFO] Connected to server.
+2018-05-10 13:45:27.8937 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:45:27.8937 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:45:27.8937 [DEBUG] Pro License : False
+2018-05-10 13:45:27.8937 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:45:27.8937 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:45:27.8937 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:45:27.8937 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:45:27.8942 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:45:27.9168 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:27.9498 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:28.1163 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:28.1544 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:45:28.1544 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:45:28.2817 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:45:28.3263 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:30.8697 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:31.1184 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:31.1515 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:45:33.6079 [DEBUG] Play mode: False
+2018-05-10 13:45:33.7337 [DEBUG] Loading complete
+2018-05-10 13:45:54.8639 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:46:17.9214 [DEBUG] Spawn request. (Objects: 4)
+2018-05-10 13:48:02.5870 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:50:57.4567 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:51:11.8386 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:51:52.2889 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:52:15.8930 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:53:19.0459 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:53:56.4299 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:53:56.4304 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:53:56.4419 [INFO] Disconnected from server.
+2018-05-10 13:53:56.4419 [DEBUG] Disconnect. (Duration: 406)
+2018-05-10 13:53:56.4630 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:53:59.2438 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:53:59.3787 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:53:59.6795 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:53:59.6870 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:54:00.0853 [DEBUG] Validating model...
+2018-05-10 13:54:00.1781 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.2091 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.2828 [DEBUG] Model validated
+2018-05-10 13:54:00.2833 [DEBUG] Authenticating with server...
+2018-05-10 13:54:00.3751 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.3916 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.5135 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:54:00.5185 [INFO] Connected to server.
+2018-05-10 13:54:00.5190 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:54:00.5190 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:54:00.5190 [DEBUG] Pro License : False
+2018-05-10 13:54:00.5190 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:54:00.5190 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:54:00.5190 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:54:00.5190 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:54:00.5190 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:54:00.5576 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.5907 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.7561 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:00.7892 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:01.1367 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:54:01.1367 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:54:01.2521 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:54:01.2521 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:54:01.2521 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:54:01.2521 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:54:01.2526 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:54:01.2526 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:54:03.5120 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:03.7436 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:03.7998 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:05.9533 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:05.9865 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:07.9745 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:07.9910 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:08.1570 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:08.1735 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:08.3886 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:08.4392 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:10.9836 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.0162 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.2148 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.2481 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.3475 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.4635 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.5137 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:11.5463 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:12.5514 [DEBUG] Play mode: False
+2018-05-10 13:54:12.7024 [DEBUG] Loading complete
+2018-05-10 13:54:15.6382 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:54:15.6387 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:54:15.6557 [INFO] Disconnected from server.
+2018-05-10 13:54:15.6557 [DEBUG] Disconnect. (Duration: -93)
+2018-05-10 13:54:15.6783 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:54:18.4402 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:54:18.5881 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:54:18.8879 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:54:18.8944 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:54:19.2896 [DEBUG] Validating model...
+2018-05-10 13:54:19.3688 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.4169 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.4836 [DEBUG] Model validated
+2018-05-10 13:54:19.4836 [DEBUG] Authenticating with server...
+2018-05-10 13:54:19.5693 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.5849 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.7112 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:54:19.7267 [INFO] Connected to server.
+2018-05-10 13:54:19.7272 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:54:19.7272 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:54:19.7272 [DEBUG] Pro License : False
+2018-05-10 13:54:19.7272 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:54:19.7277 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:54:19.7277 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:54:19.7277 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:54:19.7277 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:54:19.7508 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.7839 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.9494 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:19.9829 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:20.4452 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:54:20.4452 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:54:20.5565 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:54:20.5565 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:54:20.5565 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:54:20.5570 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:54:20.5570 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:54:20.5570 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:54:25.1441 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:25.1938 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:54:26.8992 [DEBUG] Play mode: False
+2018-05-10 13:54:27.0430 [DEBUG] Loading complete
+2018-05-10 13:54:59.8803 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:56:56.1774 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:56:56.1779 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:56:56.1900 [INFO] Disconnected from server.
+2018-05-10 13:56:56.1900 [DEBUG] Disconnect. (Duration: 53)
+2018-05-10 13:56:56.2110 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:56:58.8786 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:56:59.0115 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:56:59.3018 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:56:59.3078 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:56:59.7079 [DEBUG] Validating model...
+2018-05-10 13:56:59.8148 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:56:59.8419 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:56:59.9071 [DEBUG] Model validated
+2018-05-10 13:56:59.9071 [DEBUG] Authenticating with server...
+2018-05-10 13:56:59.9993 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.0319 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.1377 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:57:00.1427 [INFO] Connected to server.
+2018-05-10 13:57:00.1427 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:57:00.1427 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:57:00.1427 [DEBUG] Pro License : False
+2018-05-10 13:57:00.1432 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:57:00.1432 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:57:00.1432 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:57:00.1432 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:57:00.1432 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:57:00.1813 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.2310 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.3799 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.4295 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:00.4631 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:57:00.4631 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:57:00.5749 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:57:05.6098 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:05.6258 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:57:07.3665 [DEBUG] Play mode: False
+2018-05-10 13:57:07.5229 [DEBUG] Loading complete
+2018-05-10 13:58:02.4577 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 13:58:02.4582 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 13:58:02.4668 [INFO] Disconnected from server.
+2018-05-10 13:58:02.4668 [DEBUG] Disconnect. (Duration: -41)
+2018-05-10 13:58:02.4878 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 13:58:05.5603 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 13:58:05.6977 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 13:58:05.9970 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 13:58:06.0030 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 13:58:06.4051 [DEBUG] Validating model...
+2018-05-10 13:58:06.6036 [DEBUG] Model validated
+2018-05-10 13:58:06.6041 [DEBUG] Authenticating with server...
+2018-05-10 13:58:06.8393 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 13:58:06.8779 [INFO] Connected to server.
+2018-05-10 13:58:06.8779 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 13:58:06.8779 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 13:58:06.8784 [DEBUG] Pro License : False
+2018-05-10 13:58:06.8784 [DEBUG] Platform : WindowsEditor
+2018-05-10 13:58:06.8784 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 13:58:06.8784 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 13:58:06.8789 [DEBUG] Scene Fusion client build : 1
+2018-05-10 13:58:06.8789 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 13:58:07.2128 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 13:58:07.2128 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 13:58:07.3332 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 13:58:14.2710 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.3201 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.4691 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.5021 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.6511 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.7007 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.8501 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:14.8998 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:20.4513 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:20.5014 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 13:58:22.4689 [DEBUG] Play mode: False
+2018-05-10 13:58:22.6173 [DEBUG] Loading complete
+2018-05-10 13:58:40.0486 [DEBUG] Spawn request. (Objects: 3)
+2018-05-10 13:59:15.6501 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:59:26.4824 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:59:45.2729 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 13:59:56.9145 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:00:07.0294 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:00:27.9994 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:00:51.5040 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:01:13.0731 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:01:31.1774 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:02:06.6207 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:02:26.8467 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:02:59.8320 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:03:59.8166 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:04:43.7189 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:05:12.1685 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:05:49.6377 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:06:14.2770 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:06:41.4316 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:06:47.0805 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:06:59.2531 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:08:01.2100 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:08:06.1624 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 14:08:18.4474 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:08:29.3439 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:08:40.8333 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:09:02.3628 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:09:08.6427 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:09:08.6432 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:09:08.6537 [INFO] Disconnected from server.
+2018-05-10 14:09:08.6542 [DEBUG] Disconnect. (Duration: 550)
+2018-05-10 14:09:08.6843 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:09:11.6822 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:09:11.8260 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:09:12.1278 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:09:12.1339 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:09:12.5335 [DEBUG] Validating model...
+2018-05-10 14:09:12.6092 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:12.6574 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:12.7346 [DEBUG] Model validated
+2018-05-10 14:09:12.7346 [DEBUG] Authenticating with server...
+2018-05-10 14:09:12.8078 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:12.8409 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:12.9702 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:09:12.9842 [INFO] Connected to server.
+2018-05-10 14:09:12.9847 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:09:12.9847 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:09:12.9847 [DEBUG] Pro License : False
+2018-05-10 14:09:12.9847 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:09:12.9847 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:09:12.9847 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:09:12.9847 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:09:12.9847 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:09:12.9903 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:13.0400 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:13.1889 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:13.2390 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:09:13.7206 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:09:13.7211 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:09:13.8400 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:09:13.8405 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:09:13.8405 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:09:13.8405 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:09:13.8405 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:09:13.8405 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:09:17.0103 [DEBUG] Play mode: False
+2018-05-10 14:09:17.1667 [DEBUG] Loading complete
+2018-05-10 14:09:39.7362 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:09:50.5433 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:10:20.2507 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:10:37.0340 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:11:02.9082 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:11:32.4128 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:11:42.9709 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:12:11.0498 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:13:03.7394 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:13:48.8613 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:13:59.4832 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:15:12.3336 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 14:15:26.4830 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:15:38.8864 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:15:51.8478 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:16:33.8061 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:16:44.5538 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:16:59.6204 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:17:23.5472 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:17:32.3138 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:17:49.0617 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:18:23.0420 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:18:34.2645 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:18:50.9241 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:18:55.8270 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:19:04.4244 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:19:40.9034 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:19:53.4083 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:20:20.0675 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:20:30.3904 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:20:44.1468 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:20:57.6720 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:22:17.0711 [DEBUG] Spawn request. (Objects: 12)
+2018-05-10 14:22:54.1615 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:23:00.5384 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:23:13.3942 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:24:19.1196 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:24:19.1201 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:24:19.1381 [INFO] Disconnected from server.
+2018-05-10 14:24:19.1381 [DEBUG] Disconnect. (Duration: 805)
+2018-05-10 14:24:19.1627 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:24:22.1466 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:24:22.2825 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:24:22.5813 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:24:22.5873 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:24:22.9879 [DEBUG] Validating model...
+2018-05-10 14:24:23.0791 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.1102 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.1869 [DEBUG] Model validated
+2018-05-10 14:24:23.1874 [DEBUG] Authenticating with server...
+2018-05-10 14:24:23.2797 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.2962 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.4341 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:24:23.4386 [INFO] Connected to server.
+2018-05-10 14:24:23.4386 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:24:23.4391 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:24:23.4391 [DEBUG] Pro License : False
+2018-05-10 14:24:23.4391 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:24:23.4391 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:24:23.4391 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:24:23.4391 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:24:23.4391 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:24:23.4461 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.4952 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.6607 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:23.6943 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:24.0262 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:24:24.0262 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:24:24.1410 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:24:24.1410 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:24:24.1410 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:24:24.1410 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:24:24.1410 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:24:24.1415 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:24:29.0006 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:29.0171 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.1710 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.2206 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.3529 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.3860 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.6015 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:31.6346 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.1672 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.2168 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.4159 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.4489 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.5317 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.6475 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.7142 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:34.7472 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:36.5196 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:36.5527 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:37.0666 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:37.0997 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:41.7880 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:41.8376 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:42.6327 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:42.6498 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:43.3786 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:43.4116 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:24:48.8251 [DEBUG] Play mode: False
+2018-05-10 14:24:49.0036 [DEBUG] Loading complete
+2018-05-10 14:25:38.3232 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:25:40.0924 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:28:22.9293 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 14:33:22.7608 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:15.7827 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:25.5076 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:34.1166 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:36.5964 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:38.7893 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:40.8820 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:42.9959 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:50.6590 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:53.7841 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:34:57.1371 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:35:00.9060 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:35:04.7417 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:35:18.2431 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:35:21.5122 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:35:25.4197 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:35:25.4202 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:35:25.4337 [INFO] Disconnected from server.
+2018-05-10 14:35:25.4342 [DEBUG] Disconnect. (Duration: 540)
+2018-05-10 14:35:25.4693 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:35:28.3728 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:35:28.5287 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:35:28.8266 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:35:28.8326 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:35:29.2330 [DEBUG] Validating model...
+2018-05-10 14:35:29.2891 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.3400 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.4308 [DEBUG] Model validated
+2018-05-10 14:35:29.4313 [DEBUG] Authenticating with server...
+2018-05-10 14:35:29.4899 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.5230 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.6689 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:35:29.6734 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.6925 [INFO] Connected to server.
+2018-05-10 14:35:29.6925 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:35:29.6930 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:35:29.6930 [DEBUG] Pro License : False
+2018-05-10 14:35:29.6930 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:35:29.6930 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:35:29.6930 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:35:29.6930 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:35:29.6935 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:35:29.7130 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.8790 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:29.9121 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:35:30.4924 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:35:30.4924 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:35:30.6017 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:35:32.4250 [DEBUG] Play mode: False
+2018-05-10 14:35:32.6335 [DEBUG] Loading complete
+2018-05-10 14:36:15.4610 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:36:15.4615 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:36:15.4690 [INFO] Disconnected from server.
+2018-05-10 14:36:15.4695 [DEBUG] Disconnect. (Duration: -53)
+2018-05-10 14:36:15.4941 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:36:18.3349 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:36:18.4848 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:36:18.7671 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:36:18.7736 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:36:19.1751 [DEBUG] Validating model...
+2018-05-10 14:36:19.2534 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.2955 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.3737 [DEBUG] Model validated
+2018-05-10 14:36:19.3742 [DEBUG] Authenticating with server...
+2018-05-10 14:36:19.4619 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.4785 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.5923 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:36:19.6149 [INFO] Connected to server.
+2018-05-10 14:36:19.6149 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:36:19.6149 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:36:19.6149 [DEBUG] Pro License : False
+2018-05-10 14:36:19.6154 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:36:19.6154 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:36:19.6154 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:36:19.6154 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:36:19.6154 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:36:19.6354 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.6845 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.8335 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:19.8836 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:36:20.1894 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:36:20.1894 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:36:20.3073 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:36:20.3073 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:36:20.3073 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:36:20.3073 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:36:20.3073 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:36:20.3078 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:36:25.2083 [DEBUG] Play mode: False
+2018-05-10 14:36:25.4304 [DEBUG] Loading complete
+2018-05-10 14:36:57.4341 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:36:57.4346 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:36:57.4527 [INFO] Disconnected from server.
+2018-05-10 14:36:57.4527 [DEBUG] Disconnect. (Duration: -63)
+2018-05-10 14:36:57.4762 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:37:00.4910 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:37:00.6530 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:37:00.9422 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:37:00.9482 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:37:01.3466 [DEBUG] Validating model...
+2018-05-10 14:37:01.4173 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:01.4650 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:01.5447 [DEBUG] Model validated
+2018-05-10 14:37:01.5452 [DEBUG] Authenticating with server...
+2018-05-10 14:37:01.6174 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:01.6349 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:01.7778 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:37:01.8034 [INFO] Connected to server.
+2018-05-10 14:37:01.8034 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:37:01.8034 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:37:01.8034 [DEBUG] Pro License : False
+2018-05-10 14:37:01.8039 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:37:01.8039 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:37:01.8039 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:37:01.8039 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:37:01.8039 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:37:01.8064 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:01.8400 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:02.0059 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:02.0395 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:37:02.3759 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:37:02.3759 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:37:02.4918 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:37:02.4918 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:37:02.4923 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:37:02.4923 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:37:02.4923 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:37:02.4923 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:37:04.8043 [DEBUG] Play mode: False
+2018-05-10 14:37:05.0149 [DEBUG] Loading complete
+2018-05-10 14:38:58.1762 [DEBUG] Spawn request. (Objects: 12)
+2018-05-10 14:40:30.3053 [DEBUG] Spawn request. (Objects: 13)
+2018-05-10 14:41:01.1682 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 14:41:55.4214 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:41:55.4224 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:41:55.4269 [INFO] Disconnected from server.
+2018-05-10 14:41:55.4269 [DEBUG] Disconnect. (Duration: 194)
+2018-05-10 14:41:55.4535 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:41:58.6833 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:41:58.8262 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:41:59.1230 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:41:59.1301 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:41:59.5311 [DEBUG] Validating model...
+2018-05-10 14:41:59.6211 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:41:59.6532 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:41:59.7294 [DEBUG] Model validated
+2018-05-10 14:41:59.7299 [DEBUG] Authenticating with server...
+2018-05-10 14:41:59.8122 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:41:59.8463 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:41:59.9596 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:41:59.9671 [INFO] Connected to server.
+2018-05-10 14:41:59.9671 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:41:59.9671 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:41:59.9676 [DEBUG] Pro License : False
+2018-05-10 14:41:59.9676 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:41:59.9676 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:41:59.9676 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:41:59.9676 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:41:59.9676 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:41:59.9866 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:00.0363 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:00.1852 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:00.2353 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:00.3541 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:42:00.3541 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:42:00.4694 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:42:00.4694 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:42:00.4694 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:42:00.4694 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:42:00.4694 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:42:00.4699 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:42:01.0158 [DEBUG] Play mode: False
+2018-05-10 14:42:01.2214 [DEBUG] Loading complete
+2018-05-10 14:42:03.4298 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:42:03.4303 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:42:03.4374 [INFO] Disconnected from server.
+2018-05-10 14:42:03.4374 [DEBUG] Disconnect. (Duration: -93)
+2018-05-10 14:42:03.4629 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:42:06.1830 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:42:06.5796 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:42:06.5856 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:42:06.5861 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:42:06.9881 [DEBUG] Validating model...
+2018-05-10 14:42:07.1671 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.1872 [DEBUG] Model validated
+2018-05-10 14:42:07.1872 [DEBUG] Authenticating with server...
+2018-05-10 14:42:07.2153 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.3807 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.3977 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.4173 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:42:07.4373 [INFO] Connected to server.
+2018-05-10 14:42:07.4378 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:42:07.4378 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:42:07.4378 [DEBUG] Pro License : False
+2018-05-10 14:42:07.4383 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:42:07.4383 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:42:07.4383 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:42:07.4383 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:42:07.4383 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:42:07.5465 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.5961 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.7455 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:07.7952 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:08.1594 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:42:08.1594 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:42:08.2812 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:42:12.9564 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:12.9895 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:14.5073 [DEBUG] Play mode: False
+2018-05-10 14:42:14.7078 [DEBUG] Loading complete
+2018-05-10 14:42:15.8228 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:42:15.8233 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:42:15.8258 [INFO] Disconnected from server.
+2018-05-10 14:42:15.8263 [DEBUG] Disconnect. (Duration: -94)
+2018-05-10 14:42:15.8529 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:42:18.6474 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:42:19.0505 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:42:19.0560 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:42:19.0565 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:42:19.4567 [DEBUG] Validating model...
+2018-05-10 14:42:19.6309 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:19.6575 [DEBUG] Model validated
+2018-05-10 14:42:19.6580 [DEBUG] Authenticating with server...
+2018-05-10 14:42:19.6790 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:19.8279 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:19.8610 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:19.8871 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:42:19.9001 [INFO] Connected to server.
+2018-05-10 14:42:19.9001 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:42:19.9001 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:42:19.9006 [DEBUG] Pro License : False
+2018-05-10 14:42:19.9006 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:42:19.9006 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:42:19.9006 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:42:19.9006 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:42:19.9006 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:42:20.0104 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:20.0597 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:20.2090 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:20.2441 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:42:20.2441 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:42:20.3635 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:42:20.3635 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:42:20.3635 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:42:20.3640 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:42:20.3640 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:42:20.3640 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:42:20.4362 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:25.5719 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:27.4611 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:27.4771 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:28.0570 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:28.0901 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:30.6080 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:30.6577 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:30.7740 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:30.7905 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:31.0553 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:31.0883 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:31.2378 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:33.3745 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:33.4076 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:42:34.3230 [DEBUG] Play mode: False
+2018-05-10 14:42:34.5235 [DEBUG] Loading complete
+2018-05-10 14:43:57.5771 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:44:06.8597 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:44:31.4705 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:44:53.8951 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:46:19.5338 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 14:47:48.2745 [DEBUG] Spawn request. (Objects: 28)
+2018-05-10 14:48:46.0237 [DEBUG] Spawn request. (Objects: 28)
+2018-05-10 14:49:34.5950 [DEBUG] Spawn request. (Objects: 1)
+2018-05-10 14:50:50.7641 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:50:50.7647 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:50:50.7762 [INFO] Disconnected from server.
+2018-05-10 14:50:50.7762 [DEBUG] Disconnect. (Duration: 400)
+2018-05-10 14:50:50.8063 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:50:54.0617 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:50:54.2178 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:50:54.5541 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:50:54.5607 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:50:54.9618 [DEBUG] Validating model...
+2018-05-10 14:50:55.0560 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:50:55.1047 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:50:55.1608 [DEBUG] Model validated
+2018-05-10 14:50:55.1613 [DEBUG] Authenticating with server...
+2018-05-10 14:50:55.2536 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:50:55.2867 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:50:55.3980 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:50:55.4085 [INFO] Connected to server.
+2018-05-10 14:50:55.4090 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:50:55.4090 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:50:55.4090 [DEBUG] Pro License : False
+2018-05-10 14:50:55.4090 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:50:55.4090 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:50:55.4090 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:50:55.4090 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:50:55.4095 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:50:56.1657 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:50:56.1662 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:50:56.2900 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:50:56.2905 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:50:56.2905 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:50:56.2905 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:50:56.2905 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:50:56.2905 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:51:01.0343 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:01.0674 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.3207 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.3538 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.5024 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.5189 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.6195 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:03.6347 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.3021 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.3349 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.4347 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.4843 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.7166 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.7658 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:06.9152 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:08.5220 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:08.5551 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:09.0524 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:09.0850 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:13.9286 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:13.9611 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:14.7562 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:14.8063 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:15.5187 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:15.5358 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:36.4274 [DEBUG] Play mode: False
+2018-05-10 14:51:36.6410 [DEBUG] Loading complete
+2018-05-10 14:51:37.2737 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:51:37.2742 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:51:37.2917 [INFO] Disconnected from server.
+2018-05-10 14:51:37.2922 [DEBUG] Disconnect. (Duration: -95)
+2018-05-10 14:51:37.3208 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:51:40.2226 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:51:40.6538 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:51:40.6613 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:51:40.6618 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:51:41.0636 [DEBUG] Validating model...
+2018-05-10 14:51:41.2220 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.2521 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.2601 [DEBUG] Model validated
+2018-05-10 14:51:41.2601 [DEBUG] Authenticating with server...
+2018-05-10 14:51:41.4180 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.4346 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.4912 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:51:41.5068 [INFO] Connected to server.
+2018-05-10 14:51:41.5068 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:51:41.5068 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:51:41.5068 [DEBUG] Pro License : False
+2018-05-10 14:51:41.5073 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:51:41.5073 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:51:41.5073 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:51:41.5073 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:51:41.5073 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:51:41.6000 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.6336 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.7985 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:41.8316 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:42.2480 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:51:42.2480 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:51:42.3685 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:51:42.3685 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:51:42.3685 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:51:42.3690 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:51:42.3690 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:51:42.3690 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:51:44.6119 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:44.7613 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:44.7778 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:47.0144 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:47.0470 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:51:49.7099 [DEBUG] Play mode: False
+2018-05-10 14:51:49.9286 [DEBUG] Loading complete
+2018-05-10 14:54:32.3462 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:54:32.3472 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:54:32.3528 [INFO] Disconnected from server.
+2018-05-10 14:54:32.3533 [DEBUG] Disconnect. (Duration: 66)
+2018-05-10 14:54:32.3778 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:54:35.6242 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:54:35.7545 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:54:36.0534 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:54:36.0599 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:54:36.4535 [DEBUG] Validating model...
+2018-05-10 14:54:36.6029 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:36.6485 [DEBUG] Model validated
+2018-05-10 14:54:36.6490 [DEBUG] Authenticating with server...
+2018-05-10 14:54:36.6505 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:36.7994 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:36.8159 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:36.8791 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:54:36.8881 [INFO] Connected to server.
+2018-05-10 14:54:36.8886 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:54:36.8886 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:54:36.8886 [DEBUG] Pro License : False
+2018-05-10 14:54:36.8886 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:54:36.8886 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:54:36.8886 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:54:36.8886 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:54:36.8886 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:54:36.9824 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:37.0315 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:37.1804 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:37.2300 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:37.4781 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:54:37.4781 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:54:37.6240 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:54:39.9965 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:40.1454 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:40.1620 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:42.8789 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:42.9286 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:54:46.4730 [DEBUG] Play mode: False
+2018-05-10 14:54:46.6620 [DEBUG] Loading complete
+2018-05-10 14:57:13.6193 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 14:57:13.6198 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 14:57:13.6313 [INFO] Disconnected from server.
+2018-05-10 14:57:13.6313 [DEBUG] Disconnect. (Duration: 51)
+2018-05-10 14:57:13.6584 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 14:57:16.4023 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 14:57:16.5326 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 14:57:16.8279 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 14:57:16.8360 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 14:57:17.2406 [DEBUG] Validating model...
+2018-05-10 14:57:17.3959 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.4385 [DEBUG] Model validated
+2018-05-10 14:57:17.4390 [DEBUG] Authenticating with server...
+2018-05-10 14:57:17.4426 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.6085 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.6250 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.6792 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 14:57:17.6982 [INFO] Connected to server.
+2018-05-10 14:57:17.6982 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 14:57:17.6987 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 14:57:17.6987 [DEBUG] Pro License : False
+2018-05-10 14:57:17.6987 [DEBUG] Platform : WindowsEditor
+2018-05-10 14:57:17.6987 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 14:57:17.6987 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 14:57:17.6992 [DEBUG] Scene Fusion client build : 1
+2018-05-10 14:57:17.6992 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 14:57:17.7739 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.8235 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:17.9895 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:18.0221 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:18.2691 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 14:57:18.2691 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 14:57:18.3874 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 14:57:18.3874 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 14:57:18.3874 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 14:57:18.3874 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 14:57:18.3879 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 14:57:18.3879 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 14:57:23.1751 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:23.2247 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.2956 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.3453 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.4777 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.4943 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.6271 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:25.6597 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:28.4934 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:28.5259 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:28.9567 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:29.0065 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:29.1233 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:29.1895 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:30.8451 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:30.8616 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:31.0441 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:31.0772 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:31.2762 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:31.3093 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:35.4748 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:35.5240 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:36.5676 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:37.2633 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 14:57:46.3219 [DEBUG] Play mode: False
+2018-05-10 14:57:46.5265 [DEBUG] Loading complete
+2018-05-10 15:01:20.1693 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 15:01:20.1698 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 15:01:20.1764 [INFO] Disconnected from server.
+2018-05-10 15:01:20.1764 [DEBUG] Disconnect. (Duration: 117)
+2018-05-10 15:01:20.2054 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 15:01:22.9702 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 15:01:23.1106 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 15:01:23.4169 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 15:01:23.4234 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 15:01:23.8236 [DEBUG] Validating model...
+2018-05-10 15:01:23.9474 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:23.9951 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.0211 [DEBUG] Model validated
+2018-05-10 15:01:24.0216 [DEBUG] Authenticating with server...
+2018-05-10 15:01:24.1445 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.1610 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.2527 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 15:01:24.2678 [INFO] Connected to server.
+2018-05-10 15:01:24.2683 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 15:01:24.2683 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 15:01:24.2683 [DEBUG] Pro License : False
+2018-05-10 15:01:24.2683 [DEBUG] Platform : WindowsEditor
+2018-05-10 15:01:24.2688 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 15:01:24.2688 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 15:01:24.2688 [DEBUG] Scene Fusion client build : 1
+2018-05-10 15:01:24.2688 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 15:01:24.3274 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.3766 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.5255 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.5756 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:01:24.6403 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 15:01:24.6403 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 15:01:24.7592 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 15:01:24.7592 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 15:01:24.7592 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 15:01:24.7597 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 15:01:24.7597 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 15:01:24.7597 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 15:01:25.6436 [DEBUG] Play mode: False
+2018-05-10 15:01:25.8597 [DEBUG] Loading complete
+2018-05-10 15:03:05.3852 [DEBUG] Disconnecting temporarily to enter play mode.
+2018-05-10 15:03:05.3857 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 15:03:05.3887 [INFO] Disconnected from server.
+2018-05-10 15:03:05.3887 [DEBUG] Disconnect. (Duration: 3)
+2018-05-10 15:03:05.4143 [INFO] Static batching in play mode is not supported in a Scene Fusion session and will be temporarily disabled.
+2018-05-10 15:03:08.2258 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-10 15:03:08.3638 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-10 15:03:08.6786 [DEBUG] Connecting to room (69148:SceneFusion:SceneFusion) via TCP at ec2-35-162-237-97.us-west-2.compute.amazonaws.com:1025
+2018-05-10 15:03:08.6846 [DEBUG] Host connection. (Session: 69148)
+2018-05-10 15:03:09.0852 [DEBUG] Validating model...
+2018-05-10 15:03:09.2111 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.2426 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.2837 [DEBUG] Model validated
+2018-05-10 15:03:09.2842 [DEBUG] Authenticating with server...
+2018-05-10 15:03:09.4086 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.4251 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.5149 [DEBUG] Connected to room. (69148:SceneFusion:SceneFusion)
+2018-05-10 15:03:09.5314 [INFO] Connected to server.
+2018-05-10 15:03:09.5319 [DEBUG] OS : Microsoft Windows NT 10.0.16299.0
+2018-05-10 15:03:09.5319 [DEBUG] Unity Version : 2017.3.1f1
+2018-05-10 15:03:09.5319 [DEBUG] Pro License : False
+2018-05-10 15:03:09.5319 [DEBUG] Platform : WindowsEditor
+2018-05-10 15:03:09.5319 [DEBUG] Build Target : StandaloneWindows64
+2018-05-10 15:03:09.5319 [DEBUG] Scene Fusion version : 1.7.2
+2018-05-10 15:03:09.5319 [DEBUG] Scene Fusion client build : 1
+2018-05-10 15:03:09.5324 [DEBUG] User : alexander.brierly.chramer@gmail.com
+2018-05-10 15:03:09.5906 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.6242 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.7896 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:09.8227 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:10.1557 [DEBUG] Tier: Scene Fusion Free, Permissions: 00000500
+2018-05-10 15:03:10.1557 [DEBUG] User Permissions: FFFFFFFF
+2018-05-10 15:03:10.2751 [DEBUG] No stand-in for UnityEngine.Video.VideoClip
+2018-05-10 15:03:10.2751 [DEBUG] No stand-in for UnityEngine.AvatarMask
+2018-05-10 15:03:10.2751 [DEBUG] No stand-in for UnityEngine.AI.NavMeshData
+2018-05-10 15:03:10.2756 [DEBUG] No stand-in for UnityEngine.CustomRenderTexture
+2018-05-10 15:03:10.2756 [DEBUG] No stand-in for UnityEngine.U2D.SpriteAtlas
+2018-05-10 15:03:10.2756 [DEBUG] No stand-in for UnityEngine.Experimental.Rendering.RenderPassAttachment
+2018-05-10 15:03:12.8085 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:12.9244 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:15.1114 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:15.1445 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.1819 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.1994 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.3478 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.3644 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.4471 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:17.4802 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:19.9992 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:20.0483 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:20.2470 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:20.2811 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-10 15:03:21.8564 [DEBUG] Play mode: False
+2018-05-10 15:03:22.0484 [DEBUG] Loading complete
+2018-05-10 15:09:09.1536 [DEBUG] Refresh token (qajENQziIYdwAF6qLxSEu8X8rAo0acYZAfzBAsLcoaGIB4YRqhLoe74A4gnoxPdP1nEWhTQBt8Ls2gd31Ajn70abQwmWjojqm6AqJxG5lAnU8yXAS7rhyTHHSfpfsggz2NlYOu2EHJIaCx2ayw9T2inZ7I8yp4YjdYwsfFSKdWd7709H7xh3mTDo4OLW7hW8sqlm1TbxKIdRPfCwFotZegLpINLoGHjfhkr6ifdYcQ3TDhZYC7m4uXTfWCTHbwd) error: {"err":"Error getting response stream (ReadDone2): ReceiveFailure"}
+2018-05-10 15:11:19.7076 [DEBUG] Disconnecting temporarily to recompile.
+2018-05-10 15:11:19.7081 [DEBUG] Disconnecting from room (69148:SceneFusion:SceneFusion)
+2018-05-10 15:11:19.7192 [INFO] Disconnected from server.
+2018-05-10 15:11:19.7192 [DEBUG] Disconnect. (Duration: 377)
