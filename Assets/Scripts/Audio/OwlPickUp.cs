@@ -27,6 +27,7 @@ public class OwlPickUp : MonoBehaviour
             callOwl.Owl();                  //Ger score
             callCollectSound.OwlCollect();  //spelar upp jingle
             //gameObject.SetActive(false);
+            Debug.Log("Something activated");
             Destroy(gameObject);            //dödar objektet
             if(owlTrummor)
             {

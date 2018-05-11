@@ -47,6 +47,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (bas.mute == true)
         {
+            Debug.Log("unmuted");
             bas.mute = !bas.mute;
         }
         else
@@ -59,6 +60,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (trummor.mute == true)
         {
+            Debug.Log("unmuted");
             trummor.mute = !trummor.mute;
         }
         else
@@ -71,6 +73,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (gitarr.mute == true)
         {
+            Debug.Log("unmuted");
             gitarr.mute = !gitarr.mute;
         }
         else
@@ -83,6 +86,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (banjo.mute == true)
         {
+            Debug.Log("unmuted");
             banjo.mute = !banjo.mute;
         }
         else
