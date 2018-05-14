@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/LoadingScreen.unity
     guid: 896aea8dca475be49abbb58cd96e56fc
   - enabled: 1
-    path: Assets/Scenes/WIP workspace/Level Concept 1.unity
-    guid: 39372307db0793249b84c4ec2c9cf56e
+    path: Assets/Scenes/WIP workspace/Level Concept 1.2.unity
+    guid: 9ca3fd53b4e765242a8c2a173b95ecbc

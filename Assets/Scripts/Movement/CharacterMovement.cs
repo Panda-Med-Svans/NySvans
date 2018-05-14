@@ -40,7 +40,7 @@ public class CharacterMovement : MonoBehaviour
     private bool canDoubleJump = false;
     [Range(0.1f, 0.8f)]
     public float delayBeforeDoubleJump;
-    [Range(0.1f, 0.5f)]
+    [Range(0.05f, 0.5f)]
     public float deadzone = 0.2f;
 
     public float jumpBoost;
@@ -59,8 +59,9 @@ public class CharacterMovement : MonoBehaviour
         {
             startRunning = true;
         }
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         player = GetComponent<CharacterController>();
+
     }
 
     #endregion
