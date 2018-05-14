@@ -36,8 +36,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4971714055445180}
-  - component: {fileID: 65553724420407452}
   - component: {fileID: 114481884752135716}
+  - component: {fileID: 65553724420407452}
   - component: {fileID: 136153113555990214}
   m_Layer: 0
   m_Name: DeathZone

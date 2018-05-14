@@ -8,6 +8,7 @@ public class OwlPickUp : MonoBehaviour
     private ScoreTracker callOwl;
     private OwlCollection callCollectSound;
     private MusicAdvance owlAdvance;
+    private OwlFollow callFollowPlayer;
     public bool owlTrummor, owlBas, owlGitarr, owlBanjo;
 
 
@@ -26,6 +27,7 @@ public class OwlPickUp : MonoBehaviour
         {
             callOwl.Owl();                  //Ger score
             callCollectSound.OwlCollect();  //spelar upp jingle
+            callFollowPlayer.FollowPlayer();
             //gameObject.SetActive(false);
             Debug.Log("Something activated");
             Destroy(gameObject);            //dödar objektet

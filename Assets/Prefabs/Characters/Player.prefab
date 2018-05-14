@@ -222,10 +222,10 @@ MonoBehaviour:
   currentSpeed: 0
   jumpSpeed: 10
   gravity: 20
-  autoStart: 0
+  autoStart: 1
   anim: {fileID: 0}
   delayBeforeDoubleJump: 0.2
-  deadzone: 0.1
+  deadzone: 0.15
   jumpBoost: 2
 --- !u!135 &135813547182281186
 SphereCollider:

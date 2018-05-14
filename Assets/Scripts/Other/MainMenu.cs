@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class MainMenu : MonoBehaviour {
 
-    
+    public CharacterMovement startRun;
+
+    void Start()
+    {
+        startRun = GameObject.Find("Panda").GetComponent<CharacterMovement>();
+    }
 
     public void StartGame()
     {
