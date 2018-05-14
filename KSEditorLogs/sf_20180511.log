@@ -1,2 +1,127 @@
 2018-05-11 13:14:22.8837 [DEBUG] Scene Fusion version 1.7.2-1
 2018-05-11 13:14:31.1812 [DEBUG] Scene Fusion version 1.7.2-1
+<<<<<<< HEAD
+2018-05-11 14:05:00.6536 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:05:04.7876 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:28:47.7298 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:28:47.7970 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:29:07.5247 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.Start () (at Assets/Scripts/Mechanics/ScoreTracker.cs:42)
+
+2018-05-11 14:29:09.9328 [DEBUG] Play mode: False
+=======
+2018-05-11 14:13:23.5423 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:13:23.5543 [INFO] Setting define symbol SCENE_FUSION
+2018-05-11 14:13:32.8681 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:13:38.1707 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:14:58.1593 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:14:58.2701 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:14:59.0373 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.0784 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.2429 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.2604 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.4183 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.4592 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.6219 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.6650 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.NormalLeaf () (at Assets/Scripts/Mechanics/ScoreTracker.cs:90)
+LeafPickUp.OnTriggerEnter (UnityEngine.Collider other) (at Assets/Scripts/Audio/LeafPickUp.cs:22)
+
+2018-05-11 14:14:59.9399 [DEBUG] Play mode: False
+2018-05-11 14:15:06.2663 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:15:06.3691 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:15:12.1663 [DEBUG] Play mode: False
+2018-05-11 14:15:56.7971 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:15:56.9009 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:16:03.5986 [DEBUG] Play mode: False
+2018-05-11 14:16:41.4770 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:16:41.5954 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:16:55.2064 [DEBUG] Play mode: False
+2018-05-11 14:26:16.2769 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:28:08.1888 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:28:08.2840 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:28:29.0381 [DEBUG] Play mode: False
+2018-05-11 14:28:53.0889 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:28:53.4415 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:28:56.2179 [DEBUG] Play mode: False
+2018-05-11 14:30:59.0446 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:35:20.0202 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:39:26.0769 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:40:20.7016 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:40:20.8154 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:40:27.6688 [DEBUG] Play mode: False
+2018-05-11 14:41:22.2623 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:41:22.3716 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:41:29.0178 [DEBUG] Play mode: False
+2018-05-11 14:42:01.1375 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:42:01.2433 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:42:12.2684 [DEBUG] Play mode: False
+2018-05-11 14:42:24.0393 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:42:24.1476 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:42:27.3941 [DEBUG] Play mode: False
+2018-05-11 14:42:36.1508 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:42:36.2436 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:42:41.7810 [DEBUG] Play mode: False
+2018-05-11 14:43:23.5622 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:43:23.6549 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:43:24.7831 [DEBUG] Play mode: False
+2018-05-11 14:44:01.9052 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:44:02.0080 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:44:05.8385 [DEBUG] Play mode: False
+2018-05-11 14:44:45.0462 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:44:45.1460 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:45:16.8941 [DEBUG] Play mode: False
+2018-05-11 14:45:53.7369 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:51:51.4166 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:51:51.5164 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:52:24.8696 [DEBUG] Play mode: False
+2018-05-11 18:52:53.8126 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:52:53.9058 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:53:19.1920 [DEBUG] Play mode: False
+2018-05-11 18:53:23.9965 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:53:24.0858 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:53:38.7326 [DEBUG] Play mode: False
+2018-05-11 18:53:41.9198 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:53:42.0070 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:53:51.3766 [DEBUG] Play mode: False
+2018-05-11 18:54:02.6774 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:54:02.7751 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:54:11.5748 [DEBUG] Play mode: False
+2018-05-11 18:55:39.6171 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:55:39.7364 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:55:53.7515 [DEBUG] Play mode: False
+2018-05-11 18:57:01.6752 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 18:57:01.7965 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 18:58:15.3076 [DEBUG] Play mode: False
+2018-05-11 19:07:57.4739 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 23:14:26.4248 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 23:14:27.8263 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 23:17:07.4340 [DEBUG] Play mode: False
+2018-05-11 23:17:20.1187 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 23:17:20.2094 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 23:17:27.3359 [DEBUG] Play mode: False
+2018-05-11 23:18:34.5970 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 23:18:34.6893 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 23:18:36.9517 [DEBUG] Play mode: False
+>>>>>>> 9237b2f65339b3e5633a924aea2d9794d8aca530

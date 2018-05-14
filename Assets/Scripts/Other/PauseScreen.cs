@@ -47,6 +47,8 @@ public class PauseScreen : MonoBehaviour {
     public void Restart()
     {
         Time.timeScale = 1f;
+        GameIsPaused = false;
+        pauseMenuUI.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         CharacterMovement.startRunning = false;
     }
