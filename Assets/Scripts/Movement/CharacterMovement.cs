@@ -40,7 +40,7 @@ public class CharacterMovement : MonoBehaviour
     private bool canDoubleJump = false;
     [Range(0.1f, 0.8f)]
     public float delayBeforeDoubleJump;
-    [Range(0.1f, 0.5f)]
+    [Range(0.05f, 0.5f)]
     public float deadzone = 0.2f;
 
     public float jumpBoost;
@@ -59,8 +59,9 @@ public class CharacterMovement : MonoBehaviour
         {
             startRunning = true;
         }
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
         player = GetComponent<CharacterController>();
+
     }
 
     #endregion
@@ -111,28 +112,7 @@ public class CharacterMovement : MonoBehaviour
 
         player.Move(moveDirection * Time.deltaTime);
 
-        #region placeholder Tilt speed
-        //    //Debug.Log(currentSpeed);
-        //    ////placeholder for tilt speed, verkar vara enklare att göra än vad detta är.
-        //    //if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
-        //    //{
-        //    //    if (currentSpeed <= maxSpeed)
-        //    //    {
-        //    //        currentSpeed = Mathf.Lerp(currentSpeed, maxSpeed, (smoothTime * Time.deltaTime));
-        //    //    }
-        //    //}
-        //    //if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
-        //    //{
-        //    //    if (minSpeed <= currentSpeed)
-        //    //    {
-        //    //        currentSpeed = Mathf.Lerp(currentSpeed, minSpeed, (smoothTime * Time.deltaTime));
-        //    //    }
-        //    //}
-        //    //else
-        //    //{
-        //    //    currentSpeed = Mathf.Lerp(currentSpeed, startSpeed, (smoothTime * Time.deltaTime));
-        //}
-        #endregion
+
 
     }
 

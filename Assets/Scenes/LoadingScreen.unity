@@ -446,8 +446,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70d217f5a7879949b8eae07328543b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: Bollhav
-  introDuration: 20
+  levelName: Level Concept 1.2
+  introDuration: 24
   story: {fileID: 733512859}
   text: {fileID: 0}
   fadeInTime: 5
