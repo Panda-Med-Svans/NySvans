@@ -8,7 +8,7 @@ public class OwlPickUp : MonoBehaviour
     private ScoreTracker callOwl;
     private OwlCollection callCollectSound;
     private MusicAdvance owlAdvance;
-    public bool owlTrummor, owlGitarr, owlBas, owlBanjo;
+    public bool owlTrummor, owlGitarr, owlPiano, owlBas, owlBanjo, owlTrumpet, owlOrgel;
     [Space]
     public bool follow = false;
     public Transform target;
@@ -26,18 +26,29 @@ public class OwlPickUp : MonoBehaviour
         }
         if (owlGitarr)
         {
-            target = GameObject.Find("Owl(Drum)").GetComponent<Transform>();
+            target = GameObject.Find("Owl(Trum)").GetComponent<Transform>();
         }
-        if (owlBas)
+        if (owlPiano)
         {
             target = GameObject.Find("Owl(Gitarr)").GetComponent<Transform>();
         }
+        if (owlBas)
+        {
+            target = GameObject.Find("Panda").GetComponent<Transform>();
+        }
         if (owlBanjo)
         {
-            target = GameObject.Find("Owl(Base)").GetComponent<Transform>();
+            target = GameObject.Find("Owl(Bas)").GetComponent<Transform>();
+        }
+        if (owlTrumpet)
+        {
+            target = GameObject.Find("Owl(Banjo)").GetComponent<Transform>();
+        }
+        if (owlOrgel)
+        {
+            target = GameObject.Find("Owl(Piano)").GetComponent<Transform>();
         }
 
-        
     }
     
 
@@ -62,24 +73,37 @@ public class OwlPickUp : MonoBehaviour
             callOwl.Owl();                  //Ger score
             callCollectSound.OwlCollect();  //spelar upp jingle
             FollowPlayer();
-            //spela upp 
+            //spela upp collect ljud
             //gameObject.SetActive(false);
             //Destroy(gameObject);            //dödar objektet
-            if(owlTrummor)
+
+            if (owlTrummor)
             {
                 owlAdvance.Trummor();
-            }
-            if (owlBas)
-            {
-                owlAdvance.Bas();
             }
             if (owlGitarr)
             {
                 owlAdvance.Gitarr();
             }
+            if (owlPiano)
+            {
+                owlAdvance.Piano();
+            }
+            if (owlBas)
+            {
+                owlAdvance.Bas();
+            }
             if(owlBanjo)
             {
                 owlAdvance.Banjo();
+            }
+            if (owlTrumpet)
+            {
+                owlAdvance.Trumpet();
+            }
+            if (owlOrgel)
+            {
+                owlAdvance.Orgel();
             }
         }
     }
