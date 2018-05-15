@@ -1,2 +1,30 @@
 2018-05-11 13:14:22.8837 [DEBUG] Scene Fusion version 1.7.2-1
 2018-05-11 13:14:31.1812 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:17:33.7429 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:36:43.8161 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:36:43.9304 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:36:50.6063 [DEBUG] Play mode: False
+2018-05-11 13:37:16.4031 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:37:16.5093 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:37:36.4911 [DEBUG] Play mode: False
+2018-05-11 13:44:51.3999 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:44:51.5017 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:45:08.8887 [DEBUG] Play mode: False
+2018-05-11 13:45:22.3647 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:45:22.4599 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:46:06.2915 [DEBUG] Play mode: False
+2018-05-11 13:51:04.0356 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:51:04.1526 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:51:20.4395 [DEBUG] Play mode: False
+2018-05-11 13:56:26.5036 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 13:56:26.6099 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 13:56:34.5941 [DEBUG] Play mode: False
+2018-05-11 14:18:18.0041 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:18:18.1034 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:18:50.8872 [DEBUG] Play mode: False
+2018-05-11 14:26:57.5538 [DEBUG] Scene Fusion version 1.7.2-1
+2018-05-11 14:26:57.6521 [DEBUG] Play mode: True, sync in play mode: False
+2018-05-11 14:27:05.1337 [ERROR] NullReferenceException: Object reference not set to an instance of an object
+ScoreTracker.Start () (at Assets/Scripts/Mechanics/ScoreTracker.cs:42)
+
+2018-05-11 14:27:10.5081 [DEBUG] Play mode: False
