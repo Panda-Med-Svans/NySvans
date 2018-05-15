@@ -7,6 +7,7 @@ public class CharacterMovement : MonoBehaviour
 
     #region Character Basics
 
+    
     public float runSpeed = 6f;
     [Range(0.1f, 2f)][Tooltip("Lower is faster")]
     public float accelrationRate;
@@ -29,21 +30,26 @@ public class CharacterMovement : MonoBehaviour
     #endregion
 
     #region Animations
+    
+    private bool hasJumped = false;
     [HideInInspector]
     public Animator anim;
-    private bool hasJumped = false;
 
     #endregion
 
     #region Jump
-    
+
     private bool canDoubleJump = false;
     [Range(0.1f, 0.8f)]
     public float delayBeforeDoubleJump;
     [Range(0.05f, 0.5f)]
     public float deadzone = 0.2f;
-
     public float jumpBoost;
+    [Space]
+    public AudioSource pandaSounds;
+    public AudioClip[] jumpClip;
+    public AudioClip[] landningClip;
+
 
     #endregion
 
@@ -59,8 +65,11 @@ public class CharacterMovement : MonoBehaviour
         {
             startRunning = true;
         }
+        pandaSounds = GetComponent<AudioSource>();
         anim = GetComponentInChildren<Animator>();
         player = GetComponent<CharacterController>();
+        
+
 
     }
 
@@ -128,7 +137,7 @@ public class CharacterMovement : MonoBehaviour
             moveDirection.y = jumpSpeed;
             hasJumped = true;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
-            //jumpsound.Play();
+            JumpSounds();
             anim.SetTrigger("isJumping");
             //TODO: link animation, sound etc
         }
@@ -136,7 +145,7 @@ public class CharacterMovement : MonoBehaviour
         {
             canDoubleJump = false;
             moveDirection.y = jumpSpeed;
-            //jumpsound.Play();
+            JumpSounds();
             anim.SetTrigger("isDoubleJumping");
             //TODO: sound etc
         }
@@ -144,11 +153,24 @@ public class CharacterMovement : MonoBehaviour
         {
             hasJumped = true;
             moveDirection.y = jumpSpeed;
+            JumpSounds();
         }
     }
     void EnableDoubleJump()
     {
         canDoubleJump = true;
+    }
+
+    void JumpSounds()
+    {
+        pandaSounds.clip = jumpClip[Random.Range(0, jumpClip.Length)];
+        pandaSounds.Play();
+    }
+
+    void LandSounds()
+    {
+        pandaSounds.clip = landningClip[Random.Range(0, landningClip.Length)];
+        pandaSounds.Play();
     }
 
     #endregion
@@ -169,6 +191,8 @@ public class CharacterMovement : MonoBehaviour
     {
         if (player.isGrounded)
         {
+            //landnings ljud
+            //LandSounds();
             anim.SetBool("isGrounded", true);
             hasJumped = false;
             return true;
@@ -180,8 +204,9 @@ public class CharacterMovement : MonoBehaviour
         RaycastHit hit;
         if(Physics.Raycast(bottom, new Vector3(0,-1, 0), out hit, deadzone))
         {
+
             player.Move(new Vector3(0, -hit.distance, 0));
-            //Debug.Log("True. Ray");
+            hasJumped = false;
             return true;
         }
         anim.SetBool("isGrounded", false);
@@ -189,6 +214,7 @@ public class CharacterMovement : MonoBehaviour
     }
 
     #endregion
+
 
 }
 

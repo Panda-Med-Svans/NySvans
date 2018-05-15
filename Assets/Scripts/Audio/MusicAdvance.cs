@@ -5,15 +5,21 @@ using UnityEngine;
 public class MusicAdvance : MonoBehaviour {
 
     private AudioSource trummor;
+    private AudioSource trumpet;
     private AudioSource gitarr;
+    private AudioSource orgel;
+    private AudioSource piano;
     private AudioSource banjo;
     private AudioSource bas;
+    
 
     void Start()
     {
-        //
         trummor = GameObject.Find("Trummor").GetComponent<AudioSource>();
+        //trumpet = GameObject.Find("Trumpet").GetComponent<AudioSource>();
         gitarr = GameObject.Find("Gitarr").GetComponent<AudioSource>();
+        //orgel = GameObject.Find("Orgel").GetComponent<AudioSource>();
+        //piano = GameObject.Find("Piano").GetComponent<AudioSource>();
         banjo = GameObject.Find("Banjo").GetComponent<AudioSource>();
         bas = GameObject.Find("Bas").GetComponent<AudioSource>();
     }
@@ -34,27 +40,18 @@ public class MusicAdvance : MonoBehaviour {
     {
         //Pausa alla musikspår
         trummor.Pause();
+        trumpet.Pause();
         gitarr.Pause();
+        orgel.Pause();
+        piano.Pause();
         banjo.Pause();
         bas.Pause();
+
     }
 
     #endregion
 
     #region Unmute Instrument
-
-    public void Bas()
-    {
-        if (bas.mute == true)
-        {
-            Debug.Log("unmuted");
-            bas.mute = !bas.mute;
-        }
-        else
-        {
-            Debug.Log("Plockade upp fler av Bas Ugglor än planerat");
-        }
-    }
 
     public void Trummor()
     {
@@ -65,7 +62,20 @@ public class MusicAdvance : MonoBehaviour {
         }
         else
         {
-            Debug.Log("Plockade upp fler av Trumm Ugglor än planerat");
+            Debug.Log("Plockade upp fler av Trummor Ugglor än planerat");
+        }
+    }
+
+    public void Trumpet()
+    {
+        if (trumpet.mute == true)
+        {
+            Debug.Log("unmuted");
+            trumpet.mute = !trumpet.mute;
+        }
+        else
+        {
+            Debug.Log("Plockade upp fler av Trumpet Ugglor än planerat");
         }
     }
 
@@ -82,6 +92,32 @@ public class MusicAdvance : MonoBehaviour {
         }
     }
 
+    public void Orgel()
+    {
+        if (orgel.mute == true)
+        {
+            Debug.Log("unmuted");
+            orgel.mute = !orgel.mute;
+        }
+        else
+        {
+            Debug.Log("Plockade upp fler av Orgel Ugglor än planerat");
+        }
+    }
+
+    public void Piano()
+    {
+        if (piano.mute == true)
+        {
+            Debug.Log("unmuted");
+            piano.mute = !piano.mute;
+        }
+        else
+        {
+            Debug.Log("Plockade upp fler av Piano Ugglor än planerat");
+        }
+    }
+
     public void Banjo()
     {
         if (banjo.mute == true)
@@ -95,6 +131,19 @@ public class MusicAdvance : MonoBehaviour {
         }
     }
 
-        #endregion
+    public void Bas()
+    {
+        if (bas.mute == true)
+        {
+            Debug.Log("unmuted");
+            bas.mute = !bas.mute;
+        }
+        else
+        {
+            Debug.Log("Plockade upp fler av Bas Ugglor än planerat");
+        }
+    }
+
+    #endregion
 
 }

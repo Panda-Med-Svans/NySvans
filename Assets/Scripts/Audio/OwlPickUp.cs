@@ -46,7 +46,6 @@ public class OwlPickUp : MonoBehaviour
     {
         if (follow)
         {
-            Debug.Log("true");
             Vector3 desiredPosition = target.position + offset;
             Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
             transform.position = smoothedPosition;
@@ -63,8 +62,8 @@ public class OwlPickUp : MonoBehaviour
             callOwl.Owl();                  //Ger score
             callCollectSound.OwlCollect();  //spelar upp jingle
             FollowPlayer();
+            //spela upp 
             //gameObject.SetActive(false);
-            Debug.Log("Something activated");
             //Destroy(gameObject);            //dödar objektet
             if(owlTrummor)
             {
