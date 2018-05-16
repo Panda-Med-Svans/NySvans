@@ -127,6 +127,7 @@ public class CharacterMovement : MonoBehaviour
         
 
         player.Move(moveDirection * Time.deltaTime);
+        anim.SetFloat("Speed", player.velocity.x);
 
 
 
