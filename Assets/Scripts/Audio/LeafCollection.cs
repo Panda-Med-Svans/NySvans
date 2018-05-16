@@ -5,8 +5,8 @@ using UnityEngine;
 public class LeafCollection : MonoBehaviour {
 
     public AudioSource leafCollect;
-    
-    
+    public AudioClip[] collectSound;
+    [Space]
 
     public float currentPitch = 1;
     public float minPitch = 1f;
@@ -24,7 +24,6 @@ public class LeafCollection : MonoBehaviour {
     void Update()
     {
         leafCollect.pitch = currentPitch;
-        //Debug.Log(leafCollect.pitch);
         if (currentPitch > 1)
         {
             //currentPitch -= smoothPitch * Time.deltaTime; //Works but results in slightly lower pitch when it goes down to 1(0.99whatever)
@@ -38,6 +37,7 @@ public class LeafCollection : MonoBehaviour {
     public void PlayJingle()
     {
         currentPitch += pitchMultiplier;
+        leafCollect.clip = collectSound[Random.Range(0, collectSound.Length)]; 
         leafCollect.Play();
     }
 }

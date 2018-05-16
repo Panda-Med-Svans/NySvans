@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CharacterMovement : MonoBehaviour
+public class CharacterMovement1 : MonoBehaviour
 {
 
     #region Character Basics
 
+    
     public float runSpeed = 6f;
     [Range(0.1f, 2f)][Tooltip("Lower is faster")]
     public float accelrationRate;
@@ -22,12 +23,14 @@ public class CharacterMovement : MonoBehaviour
     [Tooltip("För att starta utan att behöva klicka på menyer")]
     public bool autoStart;
     public static bool startRunning = false;
+    
+
     [Space]
 
     #endregion
 
     #region Animations
-
+    
     private bool hasJumped = false;
     [HideInInspector]
     public Animator anim;
@@ -43,7 +46,7 @@ public class CharacterMovement : MonoBehaviour
     public float deadzone = 0.2f;
     public float jumpBoost;
     [Space]
-
+    
     #endregion
 
     #region Panda Sounds
@@ -64,7 +67,7 @@ public class CharacterMovement : MonoBehaviour
 
     void Start()
     {
-        if (autoStart)
+        if(autoStart)
         {
             startRunning = true;
         }
@@ -100,7 +103,7 @@ public class CharacterMovement : MonoBehaviour
         {
             Jump();
         }
-
+        
 
         #region Start Running
 
@@ -121,8 +124,8 @@ public class CharacterMovement : MonoBehaviour
         {
             currentSpeed += Time.deltaTime / accelrationRate;
         }
-
-
+        
+        
 
         player.Move(moveDirection * Time.deltaTime);
         anim.SetFloat("Speed", player.velocity.x);
@@ -139,7 +142,7 @@ public class CharacterMovement : MonoBehaviour
     {
         if (player.isGrounded)
         {
-
+            
             moveDirection.y = jumpSpeed;
             anim.SetTrigger("isJumping");
             hasJumped = true;
@@ -202,12 +205,12 @@ public class CharacterMovement : MonoBehaviour
             hasJumped = false;
             return true;
         }
-
+        
 
         Vector3 bottom = player.transform.position - new Vector3(0, player.height / 2, 0);
 
         RaycastHit hit;
-        if (Physics.Raycast(bottom, new Vector3(0, -1, 0), out hit, deadzone))
+        if(Physics.Raycast(bottom, new Vector3(0,-1, 0), out hit, deadzone))
         {
 
             player.Move(new Vector3(0, -hit.distance, 0));
@@ -224,9 +227,9 @@ public class CharacterMovement : MonoBehaviour
 
     IEnumerator IdleSounds()
     {
-        while (!startRunning)
+        while(!startRunning)
         {
-
+            
             yield return new WaitForSeconds(delayToIdleSounds);
             //Debug.Log("Played a sound");
             if (!startRunning)
@@ -236,7 +239,7 @@ public class CharacterMovement : MonoBehaviour
             }
             else
                 break;
-
+            
         }
     }
 
