@@ -94,6 +94,7 @@ public class CharacterMovement : MonoBehaviour
             if (Input.GetButton("Jump"))
             {
                 Jump();
+                
             }
         }
         else
@@ -103,6 +104,7 @@ public class CharacterMovement : MonoBehaviour
         if (Input.GetButton("Jump"))
         {
             Jump();
+            anim.SetTrigger("isJumping");
         }
         
 
@@ -128,6 +130,7 @@ public class CharacterMovement : MonoBehaviour
 
         player.Move(moveDirection * Time.deltaTime);
         anim.SetFloat("Speed", player.velocity.x);
+        anim.SetFloat("falling", player.velocity.y);
 
 
 
@@ -146,7 +149,7 @@ public class CharacterMovement : MonoBehaviour
             hasJumped = true;
             Invoke("EnableDoubleJump", delayBeforeDoubleJump);
             JumpSounds();
-            anim.SetTrigger("isJumping");
+            
             //TODO: link animation, sound etc
         }
         if (canDoubleJump)
@@ -217,7 +220,7 @@ public class CharacterMovement : MonoBehaviour
             hasJumped = false;
             return true;
         }
-        anim.SetBool("isGrounded", false);
+        anim.SetBool("isGrounded", player.isGrounded);
         return false;
     }
 
