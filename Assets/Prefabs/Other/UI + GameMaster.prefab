@@ -3080,7 +3080,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3400,7 +3400,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243125421287161952, guid: e43c2bd382d3396449c841480e0d2114,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 42bbb39eb88f88d4798e8b2a6578db74, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c5fa09a35807aad439d6c834d249cb51, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5131,13 +5131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6d201103f76c7444b35967dbe2f3b38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trummor: {fileID: 0}
-  trumpet: {fileID: 0}
-  gitarr: {fileID: 0}
-  orgel: {fileID: 0}
-  piano: {fileID: 0}
-  banjo: {fileID: 0}
-  bas: {fileID: 0}
 --- !u!114 &114340167944271796
 MonoBehaviour:
   m_ObjectHideFlags: 1
