@@ -447,7 +447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelName: Level Concept 1.2
-  introDuration: 24
+  introDuration: 38.1
   story: {fileID: 733512859}
   text: {fileID: 0}
   fadeInTime: 5
@@ -459,8 +459,9 @@ AudioSource:
   m_GameObject: {fileID: 733512856}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2dd50d3f24b0b414e8a808d4b5d59f6f, type: 3}
+  OutputAudioMixerGroup: {fileID: 243125421287161952, guid: e43c2bd382d3396449c841480e0d2114,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 934b78186fdfdad46958ad5a9ee6275c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

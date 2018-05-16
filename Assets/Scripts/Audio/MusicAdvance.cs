@@ -16,10 +16,10 @@ public class MusicAdvance : MonoBehaviour {
     void Start()
     {
         trummor = GameObject.Find("Trummor").GetComponent<AudioSource>();
-        //trumpet = GameObject.Find("Trumpet").GetComponent<AudioSource>();
+        trumpet = GameObject.Find("Trumpet").GetComponent<AudioSource>();
         gitarr = GameObject.Find("Gitarr").GetComponent<AudioSource>();
-        //orgel = GameObject.Find("Orgel").GetComponent<AudioSource>();
-        //piano = GameObject.Find("Piano").GetComponent<AudioSource>();
+        orgel = GameObject.Find("Orgel").GetComponent<AudioSource>();
+        piano = GameObject.Find("Piano").GetComponent<AudioSource>();
         banjo = GameObject.Find("Banjo").GetComponent<AudioSource>();
         bas = GameObject.Find("Bas").GetComponent<AudioSource>();
     }
@@ -57,7 +57,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (trummor.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Trummor unmuted");
             trummor.mute = !trummor.mute;
         }
         else
@@ -70,7 +70,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (trumpet.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Trumpet unmuted");
             trumpet.mute = !trumpet.mute;
         }
         else
@@ -83,7 +83,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (gitarr.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Gitarr unmuted");
             gitarr.mute = !gitarr.mute;
         }
         else
@@ -96,7 +96,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (orgel.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Orgel unmuted");
             orgel.mute = !orgel.mute;
         }
         else
@@ -109,7 +109,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (piano.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Piano unmuted");
             piano.mute = !piano.mute;
         }
         else
@@ -122,7 +122,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (banjo.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Banjo unmuted");
             banjo.mute = !banjo.mute;
         }
         else
@@ -135,7 +135,7 @@ public class MusicAdvance : MonoBehaviour {
     {
         if (bas.mute == true)
         {
-            Debug.Log("unmuted");
+            //Debug.Log("Bas unmuted");
             bas.mute = !bas.mute;
         }
         else
