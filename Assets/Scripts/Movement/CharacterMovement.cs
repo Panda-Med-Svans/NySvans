@@ -46,9 +46,14 @@ public class CharacterMovement : MonoBehaviour
     public float deadzone = 0.2f;
     public float jumpBoost;
     [Space]
-    public AudioSource pandaSounds;
+    
+    private AudioSource pandaSounds;
+    public AudioClip[] idleSounds;
+    [Range(1.0f, 20.0f)]
+    public float delayToIdleSounds;
     public AudioClip[] jumpClip;
     public AudioClip[] landningClip;
+
 
 
     #endregion
@@ -68,7 +73,9 @@ public class CharacterMovement : MonoBehaviour
         pandaSounds = GetComponent<AudioSource>();
         anim = GetComponentInChildren<Animator>();
         player = GetComponent<CharacterController>();
-        
+        Debug.Log("Invokes IdleSounds()");
+        StartCoroutine(IdleSounds());
+            //("IdleSounds", 1.0f); //intro delay untill the first idle sound
 
 
     }
@@ -107,7 +114,7 @@ public class CharacterMovement : MonoBehaviour
         }
         else
         {
-            anim.SetTrigger("isRunning");
+            anim.SetTrigger("isRunning"); //ändra till bool så man kan stänga av när man kommer i mål
             moveDirection.x = currentSpeed;
         }
 
@@ -215,6 +222,19 @@ public class CharacterMovement : MonoBehaviour
 
     #endregion
 
+    IEnumerator IdleSounds()
+    {
+        if (!startRunning)
+        {
+            yield return new WaitForSeconds(delayToIdleSounds);
+            Debug.Log("Played a sound");
+            pandaSounds.clip = idleSounds[Random.Range(0, idleSounds.Length)];
+            pandaSounds.Play();
+            IdleSounds();
+        }
+        else
+            Debug.Log("start running is true");
+    }
 
 }
 

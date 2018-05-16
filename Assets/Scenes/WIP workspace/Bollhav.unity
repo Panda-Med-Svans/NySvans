@@ -1070,6 +1070,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.size
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4671628041726672, guid: 22fde2a0f79b8b9449b9fc22cf123a1e, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1408,6 +1413,46 @@ Prefab:
         type: 2}
       propertyPath: m_Avatar
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: ece418fa51f72854e9201f430ebb187b, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: b785b845a1c1720429088ee9d8a7206c, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2bef63560f62b154d9271d75a036106b, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 1ec5d696261fb554391453d5c03004d1, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: d7350b33d7a63fe4e821cac2c48850e7, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: c3b35ad256d897a40bb21029e40ca0c8, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: idleSounds.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: f806baf50485cb543b78f6dbfd84fba3, type: 3}
+    - target: {fileID: 114664581443903846, guid: 22fde2a0f79b8b9449b9fc22cf123a1e,
+        type: 2}
+      propertyPath: delayBetweenIdleSounds
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 22fde2a0f79b8b9449b9fc22cf123a1e, type: 2}
