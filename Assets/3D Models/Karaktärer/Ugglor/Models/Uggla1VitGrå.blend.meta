@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 6155b94b6f5f08f419d4edbbab6e22aa
+timeCreated: 1526549901
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _gon
+    100002: Armature
+    100004: BackWing
+    100006: BackWingMiddle
+    100008: Head
+    100010: L_ArmHand
+    100012: L_ArmLower
+    100014: L_ArmUpper
+    100016: L_Ear
+    100018: L_Ear_Tip
+    100020: L_Foot
+    100022: L_Leg
+    100024: L_Shoulder
+    100026: Owl
+    100028: R_ArmHand_001
+    100030: R_ArmLower_001
+    100032: R_ArmUpper_001
+    100034: R_Ear_001
+    100036: R_Ear_Tip_001
+    100038: R_Foot_001
+    100040: R_Leg_001
+    100042: R_Shoulder_001
+    100044: //RootNode
+    100046: Waist
+    100048: WingTip
+    400000: _gon
+    400002: Armature
+    400004: BackWing
+    400006: BackWingMiddle
+    400008: Head
+    400010: L_ArmHand
+    400012: L_ArmLower
+    400014: L_ArmUpper
+    400016: L_Ear
+    400018: L_Ear_Tip
+    400020: L_Foot
+    400022: L_Leg
+    400024: L_Shoulder
+    400026: Owl
+    400028: R_ArmHand_001
+    400030: R_ArmLower_001
+    400032: R_ArmUpper_001
+    400034: R_Ear_001
+    400036: R_Ear_Tip_001
+    400038: R_Foot_001
+    400040: R_Leg_001
+    400042: R_Shoulder_001
+    400044: //RootNode
+    400046: Waist
+    400048: WingTip
+    2100000: OwlMaterial__Uggla1Texture_png
+    2100002: OwlEyeMaterial__OwlEyeTexture_png
+    4300000: Owl
+    4300002: _gon
+    7400000: Default Take
+    7400002: Owl_Fall
+    7400004: Owl_Idle
+    7400006: Owl_Jump
+    7400008: Owl_Run
+    7400010: t_BONE
+    9500000: //RootNode
+    13700000: _gon
+    13700002: Owl
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
