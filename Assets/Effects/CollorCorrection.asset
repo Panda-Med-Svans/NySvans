@@ -16,7 +16,7 @@ MonoBehaviour:
     m_Settings:
       mode: 0
       depth:
-        scale: 1
+        scale: 0.031
       motionVectors:
         sourceOpacity: 1
         motionImageOpacity: 0
@@ -77,11 +77,11 @@ MonoBehaviour:
       useCameraFov: 0
       kernelSize: 1
   motionBlur:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       shutterAngle: 270
       sampleCount: 10
-      frameBlending: 0
+      frameBlending: 0.073
   eyeAdaptation:
     m_Enabled: 1
     m_Settings:
@@ -97,7 +97,7 @@ MonoBehaviour:
       logMin: -8
       logMax: 4
   bloom:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       bloom:
         intensity: 1.2
@@ -121,11 +121,11 @@ MonoBehaviour:
         neutralWhiteClip: 10
       basic:
         postExposure: 0
-        temperature: 17
-        tint: 0
-        hueShift: 0
+        temperature: 8.5
+        tint: 9.3
+        hueShift: -2
         saturation: 1
-        contrast: 1
+        contrast: 0.949
       channelMixer:
         red: {x: 1, y: 0, z: 0}
         green: {x: 0, y: 1, z: 0}
@@ -153,10 +153,10 @@ MonoBehaviour:
               outSlope: 1
               tangentMode: 0
             - serializedVersion: 2
-              time: 1
-              value: 1
-              inSlope: 1
-              outSlope: 1
+              time: 0.9828326
+              value: 0.6278027
+              inSlope: -0.4332275
+              outSlope: -0.4332275
               tangentMode: 0
             m_PreInfinity: 2
             m_PostInfinity: 2
@@ -276,7 +276,7 @@ MonoBehaviour:
         e_CurveG: 0
         e_CurveB: 0
   userLut:
-    m_Enabled: 0
+    m_Enabled: 1
     m_Settings:
       lut: {fileID: 0}
       contribution: 1
