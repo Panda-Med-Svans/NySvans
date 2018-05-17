@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70d217f5a7879949b8eae07328543b3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: Level Concept 1.2
+  levelName: Level Concept 1
   introDuration: 38.1
   story: {fileID: 733512859}
   text: {fileID: 0}
